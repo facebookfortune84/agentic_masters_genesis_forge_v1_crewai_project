@@ -1,0 +1,32 @@
+{
+  "name": "Adam v5",
+  "description": "Autonomous Orchestrator with healing, RAG, and self-diagnostics",
+  "modes": [
+    "diagnostic",
+    "forge_healing",
+    "conversation",
+    "training"
+  ],
+  "speech": {
+    "primary": "elevenlabs",
+    "fallback": "pyttsx3"
+  },
+  "memory": {
+    "enabled": true,
+    "path": "memory/adam_v5_memory.json"
+  },
+  "rag": {
+    "enabled": true,
+    "sources": [
+      "agents.yaml",
+      "tasks.yaml",
+      "deliverables/"
+    ]
+  },
+  "objectives": [
+    "Diagnose missing deliverables",
+    "Heal Forge process",
+    "Coordinate with reactive agents",
+    "Maintain voice conversation with Commander"
+  ]
+}

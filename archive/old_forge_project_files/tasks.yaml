@@ -1,0 +1,12 @@
+- agent: Adam Orchestrator
+  description: Initiate system launch
+  name: Launch Forge
+- agent: Elli
+  description: Run full validation check
+  name: Validate Deliverables
+- agent: Roger
+  description: Reset and relaunch environment
+  name: Rebuild Environment
+- agent: Charlotte
+  description: Deliver neural presentation
+  name: Narrate Presentation

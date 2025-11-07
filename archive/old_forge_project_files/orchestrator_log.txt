@@ -1,0 +1,124 @@
+[06:24:40] 💎 Orchestrator online. Awaiting command input.
+[06:24:40] 
+🧭 Available Commands:
+────────────────────────────
+launch forge
+rebuild forge
+validate outputs
+message [agent] [task]
+status report
+────────────────────────────
+Example:
+> tell forge_validator to recheck last deliverables
+> rebuild forge
+> status report
+
+[06:25:33] 📨 Message sent to recheck: last deliverables
+[06:25:58] 📊 0 incoming messages.
+[06:26:16] ⚙️ Executing: python forge_project/forge_system_launch.py
+[06:26:56] Traceback (most recent call last):
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 214, in <module>
+    main()
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 195, in main
+    log("\U0001f48e REALMS TO RICHES | AGENTIC MASTER FORGE™", Fore.MAGENTA, Style.BRIGHT)
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 78, in log
+    print(color + style + f"[{ts}] {msg}" + Style.RESET_ALL)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f48e' in position 11: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 218, in <module>
+    log(f"\U0001f4a5 Critical failure: {e}", Fore.RED)
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 78, in log
+    print(color + style + f"[{ts}] {msg}" + Style.RESET_ALL)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4a5' in position 11: character maps to <undefined>
+[06:28:31] 🤔 Unknown command. Type 'help' for available actions.
+[06:28:37] 
+🧭 Available Commands:
+────────────────────────────
+launch forge
+rebuild forge
+validate outputs
+message [agent] [task]
+status report
+────────────────────────────
+Example:
+> tell forge_validator to recheck last deliverables
+> rebuild forge
+> status report
+
+[06:28:52] 📊 0 incoming messages.
+[06:29:50] 📨 Message sent to design: the New Programming language to specification
+[06:30:06] 📊 0 incoming messages.
+[06:30:21] ⚙️ Executing: python forge_project/forge_validator.py
+[06:30:21] python: can't open file 'F:\\agentic_masters_genesis_forge_v1_crewai-project\\forge_project\\forge_validator.py': [Errno 2] No such file or directory
+[06:32:21] ⚙️ Executing: python forge_project/forge_validator.py
+[06:32:51] ⚙️ Executing: python forge_project/forge_system_launch.py
+[06:33:31] Traceback (most recent call last):
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 214, in <module>
+    main()
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 195, in main
+    log("\U0001f48e REALMS TO RICHES | AGENTIC MASTER FORGE™", Fore.MAGENTA, Style.BRIGHT)
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 78, in log
+    print(color + style + f"[{ts}] {msg}" + Style.RESET_ALL)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f48e' in position 11: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 218, in <module>
+    log(f"\U0001f4a5 Critical failure: {e}", Fore.RED)
+  File "F:\agentic_masters_genesis_forge_v1_crewai-project\forge_project\forge_master_runner.py", line 78, in log
+    print(color + style + f"[{ts}] {msg}" + Style.RESET_ALL)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Users\robert.demotto\miniconda3\envs\forge_env\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4a5' in position 11: character maps to <undefined>
+[06:54:31] 🤔 Unknown command. Type 'help' for available actions.
+[06:54:35] 🤔 Unknown command. Type 'help' for available actions.
+[06:54:39] 🤔 Unknown command. Type 'help' for available actions.
+[06:54:42] 🤔 Unknown command. Type 'help' for available actions.
+[06:59:22] ⚙️ Executing: python forge_project/forge_system_launch.py
+[07:03:15] ⚙️ Executing: python forge_project/forge_validator.py
