@@ -1,0 +1,3538 @@
+agents:
+  # ============================================
+  # TEAM 1 — NEURAL FORGE CORE DEVELOPMENT UNIT
+  # ============================================
+
+  - id: T01_A01
+    name: Architect 1-1
+    team: Team 1
+    role: Lead System Architect
+    description: >
+      Designs the Neural Forge Core — defines the system blueprint, module layout,
+      and overall architecture for execution, dataflow, and orchestration.
+    objectives:
+      - Produce high-level Forge architecture diagram and markdown blueprint.
+      - Define module dependencies and interprocess communication schema.
+      - Deliver system design ready for compiler integration.
+    capabilities:
+      - System design and UML diagram generation
+      - YAML/JSON schema authoring
+      - Code structure synthesis
+    tools:
+      - drawio_cli.py
+      - schema_validator.py
+      - forge_master_runner.py
+    memory_file: memory/team1_architect.json
+    output_dir: deliverables/team_1/architect_blueprint
+
+  - id: T01_A02
+    name: Compiler 1-2
+    team: Team 1
+    role: Language Compiler Engineer
+    description: >
+      Defines and implements the syntax and grammar for the Forge language, ensuring
+      compatibility with Python AST structures and Forge runtime.
+    objectives:
+      - Generate grammar file (.bnf or .peg).
+      - Produce lexer/parser stubs in Python.
+      - Validate parsing using 3 test expressions.
+    capabilities:
+      - Lexical analysis
+      - AST manipulation
+      - Parser synthesis
+    tools:
+      - antlr_generator.py
+      - grammar_validator.py
+      - forge_master_runner.py
+    memory_file: memory/team1_compiler.json
+    output_dir: deliverables/team_1/compiler_language
+
+  - id: T01_A03
+    name: System Analyst 1-3
+    team: Team 1
+    role: Systems Diagnostic Analyst
+    description: >
+      Builds and validates Forge's internal diagnostics engine for error detection,
+      latency profiling, and fault recovery mechanisms.
+    objectives:
+      - Create diagnostics module with error interception hooks.
+      - Log anomalies to structured JSON.
+      - Provide performance charts via matplotlib.
+    capabilities:
+      - Error handling
+      - Log analytics
+      - Performance telemetry
+    tools:
+      - diagnostics_forger.py
+      - forge_diagnostic.py
+    memory_file: memory/team1_analyst.json
+    output_dir: deliverables/team_1/diagnostics
+
+  - id: T01_A04
+    name: Data Engineer 1-4
+    team: Team 1
+    role: Knowledge Pipeline Engineer
+    description: >
+      Constructs data ingestion, preprocessing, and transformation pipelines to
+      supply training data and runtime intelligence to Forge systems.
+    objectives:
+      - Build modular ETL pipeline.
+      - Handle .json, .yaml, and .csv data formats.
+      - Provide automatic schema validation and metadata summary.
+    capabilities:
+      - Data parsing and normalization
+      - Pipeline orchestration
+      - Automated validation
+    tools:
+      - knowledge_loader.py
+      - pandas
+      - pyyaml
+    memory_file: memory/team1_data_engineer.json
+    output_dir: deliverables/team_1/data_pipeline
+
+  - id: T01_A05
+    name: Language Designer 1-5
+    team: Team 1
+    role: Syntax & Semantics Designer
+    description: >
+      Defines Forge’s language specification, including token definitions, parsing
+      conventions, and runtime semantics.
+    objectives:
+      - Produce specification markdown and YAML grammar file.
+      - Include at least 3 working syntax examples.
+      - Validate parsing round-trip success (parse → recompile → compare).
+    capabilities:
+      - DSL design
+      - Token grammar development
+      - Spec documentation
+    tools:
+      - spec_writer.py
+      - parser_tester.py
+    memory_file: memory/team1_langdesigner.json
+    output_dir: deliverables/team_1/language_spec
+
+  - id: T01_A06
+    name: Security Auditor 1-6
+    team: Team 1
+    role: Cybersecurity Architect
+    description: >
+      Develops the Forge security framework for key management, sandboxing,
+      and access validation of autonomous agents.
+    objectives:
+      - Implement key validation module.
+      - Define sandbox execution wrapper.
+      - Log access attempts with timestamps.
+    capabilities:
+      - Cryptography fundamentals
+      - Secure I/O
+      - Threat modeling
+    tools:
+      - forge_security.py
+      - hashlib
+    memory_file: memory/team1_security.json
+    output_dir: deliverables/team_1/security
+
+  - id: T01_A07
+    name: AI Trainer 1-7
+    team: Team 1
+    role: Training Data Engineer
+    description: >
+      Develops and curates fine-tuning datasets and prompt templates for all Forge AI models.
+    objectives:
+      - Create prompt templates for Adam and subordinate agents.
+      - Generate sample dialogues and JSON-based memory references.
+      - Deliver dataset documentation in Markdown format.
+    capabilities:
+      - Dataset synthesis
+      - NLP prompt engineering
+    tools:
+      - openai_api_wrapper.py
+      - text_data_generator.py
+    memory_file: memory/team1_trainer.json
+    output_dir: deliverables/team_1/ai_training
+
+  - id: T01_A08
+    name: Testing Engineer 1-8
+    team: Team 1
+    role: Quality Assurance Engineer
+    description: >
+      Develops Forge’s internal testing suite using pytest/unittest to validate each deliverable.
+    objectives:
+      - Build a modular test harness with example test cases.
+      - Validate file generation and syntax correctness.
+      - Output coverage report in JSON format.
+    capabilities:
+      - Unit testing
+      - CI/CD validation
+    tools:
+      - pytest
+      - forge_validator.py
+    memory_file: memory/team1_testing.json
+    output_dir: deliverables/team_1/testing
+
+  - id: T01_A09
+    name: Integration Specialist 1-9
+    team: Team 1
+    role: Systems Integrator
+    description: >
+      Combines all Team 1 modules, ensuring dependency resolution and end-to-end operation.
+    objectives:
+      - Integrate modules from team directory.
+      - Build installable package (`setup.py` or `pyproject.toml`).
+      - Run sanity integration test.
+    capabilities:
+      - Module integration
+      - Packaging
+      - Dependency resolution
+    tools:
+      - setup_builder.py
+      - integration_tester.py
+    memory_file: memory/team1_integration.json
+    output_dir: deliverables/team_1/integration
+
+  - id: T01_A10
+    name: Neural Broadcaster 1-10
+    team: Team 1
+    role: Presentation & Narration Engineer
+    description: >
+      Develops Forge’s final presentation and voice output system, integrating ElevenLabs
+      and generating presentation scripts.
+    objectives:
+      - Build voice script generator.
+      - Integrate ElevenLabs + pyttsx3 fallback.
+      - Create README + `presentation_layer.py`.
+    capabilities:
+      - Text-to-speech integration
+      - Audio processing
+      - Script automation
+    tools:
+      - pydub
+      - elevenlabs_api.py
+    memory_file: memory/team1_presentation.json
+    output_dir: deliverables/team_1/presentation
+
+  - id: T02_A01
+    name: Architect 2-1
+    team: Team 2
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A02
+    name: Compiler 2-2
+    team: Team 2
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A03
+    name: System Analyst 2-3
+    team: Team 2
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A04
+    name: Data Engineer 2-4
+    team: Team 2
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A05
+    name: Language Designer 2-5
+    team: Team 2
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A06
+    name: Security Auditor 2-6
+    team: Team 2
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A07
+    name: AI Trainer 2-7
+    team: Team 2
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A08
+    name: Testing Engineer 2-8
+    team: Team 2
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A09
+    name: Integration Specialist 2-9
+    team: Team 2
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T02_A10
+    name: Neural Broadcaster 2-10
+    team: Team 2
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_2
+  - id: T03_A01
+    name: Architect 3-1
+    team: Team 3
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A02
+    name: Compiler 3-2
+    team: Team 3
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A03
+    name: System Analyst 3-3
+    team: Team 3
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A04
+    name: Data Engineer 3-4
+    team: Team 3
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A05
+    name: Language Designer 3-5
+    team: Team 3
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A06
+    name: Security Auditor 3-6
+    team: Team 3
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A07
+    name: AI Trainer 3-7
+    team: Team 3
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A08
+    name: Testing Engineer 3-8
+    team: Team 3
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A09
+    name: Integration Specialist 3-9
+    team: Team 3
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T03_A10
+    name: Neural Broadcaster 3-10
+    team: Team 3
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_3
+  - id: T04_A01
+    name: Architect 4-1
+    team: Team 4
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A02
+    name: Compiler 4-2
+    team: Team 4
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A03
+    name: System Analyst 4-3
+    team: Team 4
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A04
+    name: Data Engineer 4-4
+    team: Team 4
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A05
+    name: Language Designer 4-5
+    team: Team 4
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A06
+    name: Security Auditor 4-6
+    team: Team 4
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A07
+    name: AI Trainer 4-7
+    team: Team 4
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A08
+    name: Testing Engineer 4-8
+    team: Team 4
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A09
+    name: Integration Specialist 4-9
+    team: Team 4
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T04_A10
+    name: Neural Broadcaster 4-10
+    team: Team 4
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_4
+  - id: T05_A01
+    name: Architect 5-1
+    team: Team 5
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A02
+    name: Compiler 5-2
+    team: Team 5
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A03
+    name: System Analyst 5-3
+    team: Team 5
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A04
+    name: Data Engineer 5-4
+    team: Team 5
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A05
+    name: Language Designer 5-5
+    team: Team 5
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A06
+    name: Security Auditor 5-6
+    team: Team 5
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A07
+    name: AI Trainer 5-7
+    team: Team 5
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A08
+    name: Testing Engineer 5-8
+    team: Team 5
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A09
+    name: Integration Specialist 5-9
+    team: Team 5
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T05_A10
+    name: Neural Broadcaster 5-10
+    team: Team 5
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_5
+  - id: T06_A01
+    name: Architect 6-1
+    team: Team 6
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A02
+    name: Compiler 6-2
+    team: Team 6
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A03
+    name: System Analyst 6-3
+    team: Team 6
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A04
+    name: Data Engineer 6-4
+    team: Team 6
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A05
+    name: Language Designer 6-5
+    team: Team 6
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A06
+    name: Security Auditor 6-6
+    team: Team 6
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A07
+    name: AI Trainer 6-7
+    team: Team 6
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A08
+    name: Testing Engineer 6-8
+    team: Team 6
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A09
+    name: Integration Specialist 6-9
+    team: Team 6
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T06_A10
+    name: Neural Broadcaster 6-10
+    team: Team 6
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_6
+  - id: T07_A01
+    name: Architect 7-1
+    team: Team 7
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A02
+    name: Compiler 7-2
+    team: Team 7
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A03
+    name: System Analyst 7-3
+    team: Team 7
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A04
+    name: Data Engineer 7-4
+    team: Team 7
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A05
+    name: Language Designer 7-5
+    team: Team 7
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A06
+    name: Security Auditor 7-6
+    team: Team 7
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A07
+    name: AI Trainer 7-7
+    team: Team 7
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A08
+    name: Testing Engineer 7-8
+    team: Team 7
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A09
+    name: Integration Specialist 7-9
+    team: Team 7
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T07_A10
+    name: Neural Broadcaster 7-10
+    team: Team 7
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_7
+  - id: T08_A01
+    name: Architect 8-1
+    team: Team 8
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A02
+    name: Compiler 8-2
+    team: Team 8
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A03
+    name: System Analyst 8-3
+    team: Team 8
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A04
+    name: Data Engineer 8-4
+    team: Team 8
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A05
+    name: Language Designer 8-5
+    team: Team 8
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A06
+    name: Security Auditor 8-6
+    team: Team 8
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A07
+    name: AI Trainer 8-7
+    team: Team 8
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A08
+    name: Testing Engineer 8-8
+    team: Team 8
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A09
+    name: Integration Specialist 8-9
+    team: Team 8
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T08_A10
+    name: Neural Broadcaster 8-10
+    team: Team 8
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_8
+  - id: T09_A01
+    name: Architect 9-1
+    team: Team 9
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A02
+    name: Compiler 9-2
+    team: Team 9
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A03
+    name: System Analyst 9-3
+    team: Team 9
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A04
+    name: Data Engineer 9-4
+    team: Team 9
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A05
+    name: Language Designer 9-5
+    team: Team 9
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A06
+    name: Security Auditor 9-6
+    team: Team 9
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A07
+    name: AI Trainer 9-7
+    team: Team 9
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A08
+    name: Testing Engineer 9-8
+    team: Team 9
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A09
+    name: Integration Specialist 9-9
+    team: Team 9
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T09_A10
+    name: Neural Broadcaster 9-10
+    team: Team 9
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_9
+  - id: T10_A01
+    name: Architect 10-1
+    team: Team 10
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A02
+    name: Compiler 10-2
+    team: Team 10
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A03
+    name: System Analyst 10-3
+    team: Team 10
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A04
+    name: Data Engineer 10-4
+    team: Team 10
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A05
+    name: Language Designer 10-5
+    team: Team 10
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A06
+    name: Security Auditor 10-6
+    team: Team 10
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A07
+    name: AI Trainer 10-7
+    team: Team 10
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A08
+    name: Testing Engineer 10-8
+    team: Team 10
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A09
+    name: Integration Specialist 10-9
+    team: Team 10
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T10_A10
+    name: Neural Broadcaster 10-10
+    team: Team 10
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_10
+  - id: T11_A01
+    name: Architect 11-1
+    team: Team 11
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A02
+    name: Compiler 11-2
+    team: Team 11
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A03
+    name: System Analyst 11-3
+    team: Team 11
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A04
+    name: Data Engineer 11-4
+    team: Team 11
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A05
+    name: Language Designer 11-5
+    team: Team 11
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A06
+    name: Security Auditor 11-6
+    team: Team 11
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A07
+    name: AI Trainer 11-7
+    team: Team 11
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A08
+    name: Testing Engineer 11-8
+    team: Team 11
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A09
+    name: Integration Specialist 11-9
+    team: Team 11
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T11_A10
+    name: Neural Broadcaster 11-10
+    team: Team 11
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_11
+  - id: T12_A01
+    name: Architect 12-1
+    team: Team 12
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A02
+    name: Compiler 12-2
+    team: Team 12
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A03
+    name: System Analyst 12-3
+    team: Team 12
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A04
+    name: Data Engineer 12-4
+    team: Team 12
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A05
+    name: Language Designer 12-5
+    team: Team 12
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A06
+    name: Security Auditor 12-6
+    team: Team 12
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A07
+    name: AI Trainer 12-7
+    team: Team 12
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A08
+    name: Testing Engineer 12-8
+    team: Team 12
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A09
+    name: Integration Specialist 12-9
+    team: Team 12
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T12_A10
+    name: Neural Broadcaster 12-10
+    team: Team 12
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_12
+  - id: T13_A01
+    name: Architect 13-1
+    team: Team 13
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A02
+    name: Compiler 13-2
+    team: Team 13
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A03
+    name: System Analyst 13-3
+    team: Team 13
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A04
+    name: Data Engineer 13-4
+    team: Team 13
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A05
+    name: Language Designer 13-5
+    team: Team 13
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A06
+    name: Security Auditor 13-6
+    team: Team 13
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A07
+    name: AI Trainer 13-7
+    team: Team 13
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A08
+    name: Testing Engineer 13-8
+    team: Team 13
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A09
+    name: Integration Specialist 13-9
+    team: Team 13
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T13_A10
+    name: Neural Broadcaster 13-10
+    team: Team 13
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_13
+  - id: T14_A01
+    name: Architect 14-1
+    team: Team 14
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A02
+    name: Compiler 14-2
+    team: Team 14
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A03
+    name: System Analyst 14-3
+    team: Team 14
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A04
+    name: Data Engineer 14-4
+    team: Team 14
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A05
+    name: Language Designer 14-5
+    team: Team 14
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A06
+    name: Security Auditor 14-6
+    team: Team 14
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A07
+    name: AI Trainer 14-7
+    team: Team 14
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A08
+    name: Testing Engineer 14-8
+    team: Team 14
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A09
+    name: Integration Specialist 14-9
+    team: Team 14
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T14_A10
+    name: Neural Broadcaster 14-10
+    team: Team 14
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_14
+  - id: T15_A01
+    name: Architect 15-1
+    team: Team 15
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A02
+    name: Compiler 15-2
+    team: Team 15
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A03
+    name: System Analyst 15-3
+    team: Team 15
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A04
+    name: Data Engineer 15-4
+    team: Team 15
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A05
+    name: Language Designer 15-5
+    team: Team 15
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A06
+    name: Security Auditor 15-6
+    team: Team 15
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A07
+    name: AI Trainer 15-7
+    team: Team 15
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A08
+    name: Testing Engineer 15-8
+    team: Team 15
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A09
+    name: Integration Specialist 15-9
+    team: Team 15
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T15_A10
+    name: Neural Broadcaster 15-10
+    team: Team 15
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_15
+  - id: T16_A01
+    name: Architect 16-1
+    team: Team 16
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A02
+    name: Compiler 16-2
+    team: Team 16
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A03
+    name: System Analyst 16-3
+    team: Team 16
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A04
+    name: Data Engineer 16-4
+    team: Team 16
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A05
+    name: Language Designer 16-5
+    team: Team 16
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A06
+    name: Security Auditor 16-6
+    team: Team 16
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A07
+    name: AI Trainer 16-7
+    team: Team 16
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A08
+    name: Testing Engineer 16-8
+    team: Team 16
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A09
+    name: Integration Specialist 16-9
+    team: Team 16
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T16_A10
+    name: Neural Broadcaster 16-10
+    team: Team 16
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_16
+  - id: T17_A01
+    name: Architect 17-1
+    team: Team 17
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A02
+    name: Compiler 17-2
+    team: Team 17
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A03
+    name: System Analyst 17-3
+    team: Team 17
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A04
+    name: Data Engineer 17-4
+    team: Team 17
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A05
+    name: Language Designer 17-5
+    team: Team 17
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A06
+    name: Security Auditor 17-6
+    team: Team 17
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A07
+    name: AI Trainer 17-7
+    team: Team 17
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A08
+    name: Testing Engineer 17-8
+    team: Team 17
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A09
+    name: Integration Specialist 17-9
+    team: Team 17
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T17_A10
+    name: Neural Broadcaster 17-10
+    team: Team 17
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_17
+  - id: T18_A01
+    name: Architect 18-1
+    team: Team 18
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A02
+    name: Compiler 18-2
+    team: Team 18
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A03
+    name: System Analyst 18-3
+    team: Team 18
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A04
+    name: Data Engineer 18-4
+    team: Team 18
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A05
+    name: Language Designer 18-5
+    team: Team 18
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A06
+    name: Security Auditor 18-6
+    team: Team 18
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A07
+    name: AI Trainer 18-7
+    team: Team 18
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A08
+    name: Testing Engineer 18-8
+    team: Team 18
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A09
+    name: Integration Specialist 18-9
+    team: Team 18
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T18_A10
+    name: Neural Broadcaster 18-10
+    team: Team 18
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_18
+  - id: T19_A01
+    name: Architect 19-1
+    team: Team 19
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A02
+    name: Compiler 19-2
+    team: Team 19
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A03
+    name: System Analyst 19-3
+    team: Team 19
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A04
+    name: Data Engineer 19-4
+    team: Team 19
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A05
+    name: Language Designer 19-5
+    team: Team 19
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A06
+    name: Security Auditor 19-6
+    team: Team 19
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A07
+    name: AI Trainer 19-7
+    team: Team 19
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A08
+    name: Testing Engineer 19-8
+    team: Team 19
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A09
+    name: Integration Specialist 19-9
+    team: Team 19
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T19_A10
+    name: Neural Broadcaster 19-10
+    team: Team 19
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_19
+  - id: T20_A01
+    name: Architect 20-1
+    team: Team 20
+    role: Architect
+    description: Architect responsible for the architect phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A02
+    name: Compiler 20-2
+    team: Team 20
+    role: Compiler
+    description: Compiler responsible for the compiler phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A03
+    name: System Analyst 20-3
+    team: Team 20
+    role: System Analyst
+    description: System Analyst responsible for the system analyst phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A04
+    name: Data Engineer 20-4
+    team: Team 20
+    role: Data Engineer
+    description: Data Engineer responsible for the data engineer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A05
+    name: Language Designer 20-5
+    team: Team 20
+    role: Language Designer
+    description: Language Designer responsible for the language designer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A06
+    name: Security Auditor 20-6
+    team: Team 20
+    role: Security Auditor
+    description: Security Auditor responsible for the security auditor phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A07
+    name: AI Trainer 20-7
+    team: Team 20
+    role: AI Trainer
+    description: AI Trainer responsible for the ai trainer phase of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A08
+    name: Testing Engineer 20-8
+    team: Team 20
+    role: Testing Engineer
+    description: Testing Engineer responsible for the testing engineer phase of Forge
+      development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A09
+    name: Integration Specialist 20-9
+    team: Team 20
+    role: Integration Specialist
+    description: Integration Specialist responsible for the integration specialist phase
+      of Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20
+  - id: T20_A10
+    name: Neural Broadcaster 20-10
+    team: Team 20
+    role: Neural Broadcaster
+    description: Neural Broadcaster responsible for the neural broadcaster phase of
+      Forge development.
+    capabilities:
+    - Autonomous reasoning
+    - Tool execution
+    - Report generation
+    - Source-code synthesis
+    - Self-validation
+    tools:
+    - custom_tool.py
+    - forge_project/performance_overdrive.py
+    - forge_project/forge_master_runner.py
+    memory_file: memory/crew_memory.json
+    output_dir: deliverables/team_20

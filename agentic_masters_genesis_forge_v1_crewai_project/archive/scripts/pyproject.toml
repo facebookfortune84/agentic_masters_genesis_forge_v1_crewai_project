@@ -1,0 +1,81 @@
+[project]
+name = "agentic_masters_genesis_forge_v1_crewai_project"
+version = "1.0.0"
+description = "Realms to Riches | Agentic Master Forge™ — Autonomous Cinematic AI Intelligence Framework"
+authors = [{ name = "Robert Demotto Jr", email = "robert.demotto@example.com" }]
+requires-python = ">=3.10,<3.14"
+
+dependencies = [
+    # Core AI & Crew System
+    "crewai[tools]>=0.203.0,<1.0.0",
+    "openai>=1.51.0",
+    "groq>=0.5.0",
+
+    # Forge Infrastructure
+    "pyyaml>=6.0.1",
+    "pydantic>=2.8.2",
+    "requests>=2.32.0",
+
+    # Terminal & Cinematic Visualization
+    "colorama>=0.4.6",
+    "rich>=13.7.1",
+    "termcolor>=2.4.0",
+    "pyfiglet>=1.0.2",
+    "asciimatics>=1.15.0",
+    "tqdm>=4.66.3",
+    "pillow>=10.4.0",
+
+    # Voice, Audio, and Media Processing
+    "simpleaudio>=1.0.4",
+    "ffmpeg-python>=0.2.0",
+    "elevenlabs>=1.4.0",
+
+    # Documentation & Markdown Rendering
+    "markdown2>=2.5.0",
+
+    # Dev Tools / Environment
+    "uv>=0.2.0",
+    "setuptools>=80.0.0",
+    "wheel>=0.45.0"
+]
+
+[project.scripts]
+agentic_masters_genesis_forge = "agentic_masters_genesis_forge.main:run"
+run_crew = "agentic_masters_genesis_forge.main:run"
+train = "agentic_masters_genesis_forge.main:train"
+replay = "agentic_masters_genesis_forge.main:replay"
+test = "agentic_masters_genesis_forge.main:test"
+forge_launch = "forge_system_launch:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+agents = [
+    "Architect",
+    "Compiler",
+    "Systems Analyst",
+    "Broadcaster",
+    "Cinematic Director",
+    "Neural Narrator",
+    "Data Scribe",
+    "Intelligence Cartographer",
+    "Voice Engineer",
+    "Reality Synchronizer"
+]
+
+[tool.forge]
+assets_path = "assets/"
+voices_path = "assets/voices/"
+deliverables_path = "deliverables/"
+use_voice_assets = true
+use_visual_effects = true
+broadcast_system = true
+holographic_mode = true
+performance_overdrive = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["agentic_masters_genesis_forge_v1_crewai_project"]
+

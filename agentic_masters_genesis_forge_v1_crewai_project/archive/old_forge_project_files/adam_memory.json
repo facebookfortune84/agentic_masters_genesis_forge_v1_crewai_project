@@ -1,0 +1,16 @@
+{
+  "history": [
+    "learn The forge system manages autonomous AI agents.",
+    "ecall What does the forge do?",
+    "nalyze image assets/logo.png",
+    "tell forge_validator please verify last run",
+    "aunch forge",
+    "add extra logging to the launch script to help find out why I am not getting output from the forge runs and change the color of your white text to cyan.",
+    "diagnose why i dont have any deliverables",
+    "tell forge_validator please verify last run",
+    "",
+    "forge validator and \"validate the last run and find out why I did not receive any deliverables"
+  ],
+  "images": [],
+  "context": []
+}

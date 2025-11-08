@@ -1,0 +1,9 @@
+- name: Adam Orchestrator
+  role: Command Overseer
+  voice: Adam
+- name: Charlotte
+  role: Narrative Architect
+- name: Roger
+  role: Systems Analyst
+- name: Elli
+  role: Deliverables Manager

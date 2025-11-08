@@ -1,0 +1,4253 @@
+{
+  "design_the_code_specification_(ID:_": "\u2502\n\u2502  No valid LLM response received. Auto-healed placeholder injected.          \u2502\n\u2502                                                                             \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n\ud83d\ude80 Crew: crew\n\u251c\u2500\u2500 \ud83d\udccb Task: design_the_code_specification (ID: \n\u2502   cc957a28-59cc-456b-b725-f210f7888490)\n\u2502   Assigned to: Chief Language Architect\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: diagnose_system_error (ID: 4bad166d-9463-4e73-a242-c06ec6a5d93f)\n\u2502   Assigned to: Error Analyst and Diagnostics Specialist\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: design_the_code_compiler_architecture (ID: \n\u2502   71fd695c-91f5-443b-bccd-77bb29b41763)\n\u2502   Assigned to: Compiler and Runtime Engineer\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: architect_agent_forge_core_system (ID: \n\u2502   5b55bb2d-8d00-4c57-ac86-ef142940068d)\n\u2502   Assigned to: Agent Forge System Architect\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: review_enterprise_security (ID: \n\u2502   b11ab0eb-b5d7-441d-a7e6-f85fce2c8a81)\n\u2502   Assigned to: Enterprise Security and Compliance Analyst\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: create_agent_identities (ID: afafe101-5c5f-49ba-b86e-130955a33a13)\n\u2502   Assigned to: Autonomous Agent Persona Engineer\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: design_ar_vr_hil_environment (ID: \n\u2502   4ac952b0-2308-4aa2-a8ed-7139a58368bf)\n\u2502   Assigned to: Human-Machine Interface and Deployment Specialist\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: create_deployment_package (ID: \n\u2502   3c6a217c-13cb-4076-a775-5c872ecfdc0b)\n\u2502   Assigned to: Agent Forge System Architect\n\u2502   Status: \u2705 Completed\n\u251c\u2500\u2500 \ud83d\udccb Task: document_agent_forge_portability (ID: \n\u2502   66e69964-2cb2-41f4-9ade-f66f6088da8d)\n\u2502   Assigned to: Chief Language Architect\n\u2502   Status: \u2705 Completed\n\u2514\u2500\u2500 \ud83d\udccb Task: generate_code_fix (ID: 1422fa3f-709d-460b-b3f8-f61a4296901f)\n    Assigned to: Code Fixer and Source Code Update Specialist\n    Status: \u2705 Completed\n    \u2514\u2500\u2500 \ud83d\udd27 Failed Read a file's content (3)\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Task Completion \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                                                                             \u2502\n\u2502",
+  "runs": [
+    {
+      "timestamp": 1762455184.6180205,
+      "results": [
+        {
+          "agent_id": "T03_A05",
+          "task_id": "task_169",
+          "status": "completed",
+          "timestamp": 1762455184.6180136
+        },
+        {
+          "agent_id": "T17_A05",
+          "task_id": "task_147",
+          "status": "completed",
+          "timestamp": 1762455190.2514503
+        },
+        {
+          "agent_id": "T04_A09",
+          "task_id": "task_160",
+          "status": "completed",
+          "timestamp": 1762455200.9357405
+        },
+        {
+          "agent_id": "T12_A03",
+          "task_id": "task_100",
+          "status": "completed",
+          "timestamp": 1762455203.2535388
+        },
+        {
+          "agent_id": "T17_A01",
+          "task_id": "task_36",
+          "status": "completed",
+          "timestamp": 1762455211.602307
+        },
+        {
+          "agent_id": "T18_A02",
+          "task_id": "task_8",
+          "status": "completed",
+          "timestamp": 1762455223.1978822
+        },
+        {
+          "agent_id": "T16_A06",
+          "task_id": "task_98",
+          "status": "completed",
+          "timestamp": 1762455224.3154898
+        },
+        {
+          "agent_id": "T15_A08",
+          "task_id": "task_84",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455227.9165072
+        },
+        {
+          "agent_id": "T11_A05",
+          "task_id": "task_56",
+          "status": "completed",
+          "timestamp": 1762455229.1887348
+        },
+        {
+          "agent_id": "T12_A07",
+          "task_id": "task_91",
+          "status": "completed",
+          "timestamp": 1762455246.3100584
+        },
+        {
+          "agent_id": "T05_A03",
+          "task_id": "task_123",
+          "status": "completed",
+          "timestamp": 1762455252.9310353
+        },
+        {
+          "agent_id": "T01_A07",
+          "task_id": "task_7",
+          "status": "completed",
+          "timestamp": 1762455253.760763
+        },
+        {
+          "agent_id": "T14_A01",
+          "task_id": "task_177",
+          "status": "completed",
+          "timestamp": 1762455259.7617564
+        },
+        {
+          "agent_id": "T15_A06",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455261.557753
+        },
+        {
+          "agent_id": "T15_A06",
+          "task_id": "task_158",
+          "status": "completed",
+          "timestamp": 1762455273.3683445
+        },
+        {
+          "agent_id": "T11_A01",
+          "task_id": "task_5",
+          "status": "completed",
+          "timestamp": 1762455278.635715
+        },
+        {
+          "agent_id": "T02_A08",
+          "task_id": "task_11",
+          "status": "completed",
+          "timestamp": 1762455287.5623934
+        },
+        {
+          "agent_id": "T01_A10",
+          "task_id": "task_98",
+          "status": "completed",
+          "timestamp": 1762455290.3133428
+        },
+        {
+          "agent_id": "T19_A09",
+          "task_id": "task_120",
+          "status": "completed",
+          "timestamp": 1762455291.4397812
+        },
+        {
+          "agent_id": "T04_A05",
+          "task_id": "task_91",
+          "status": "completed",
+          "timestamp": 1762455292.1839433
+        },
+        {
+          "agent_id": "T15_A02",
+          "task_id": "task_77",
+          "status": "completed",
+          "timestamp": 1762455293.7971468
+        },
+        {
+          "agent_id": "T19_A08",
+          "task_id": "task_114",
+          "status": "completed",
+          "timestamp": 1762455298.2994955
+        },
+        {
+          "agent_id": "T08_A06",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455305.1730223
+        },
+        {
+          "agent_id": "T19_A01",
+          "task_id": "task_161",
+          "status": "completed",
+          "timestamp": 1762455311.4978006
+        },
+        {
+          "agent_id": "T13_A07",
+          "task_id": "task_83",
+          "status": "completed",
+          "timestamp": 1762455315.2181654
+        },
+        {
+          "agent_id": "T17_A08",
+          "task_id": "task_65",
+          "status": "completed",
+          "timestamp": 1762455315.9751468
+        },
+        {
+          "agent_id": "T05_A04",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455316.8361542
+        },
+        {
+          "agent_id": "T06_A06",
+          "task_id": "task_8",
+          "status": "completed",
+          "timestamp": 1762455328.2663336
+        },
+        {
+          "agent_id": "T03_A05",
+          "task_id": "task_132",
+          "status": "completed",
+          "timestamp": 1762455338.8069887
+        }
+      ]
+    },
+    {
+      "timestamp": 1762455339.281333,
+      "results": [
+        {
+          "agent_id": "T01_A01",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455174.8828762
+        },
+        {
+          "agent_id": "T01_A01",
+          "task_id": "task_145",
+          "status": "completed",
+          "timestamp": 1762455175.1419456
+        },
+        {
+          "agent_id": "T01_A01",
+          "task_id": "task_19",
+          "status": "completed",
+          "timestamp": 1762455175.395651
+        },
+        {
+          "agent_id": "T01_A02",
+          "task_id": "task_25",
+          "status": "completed",
+          "timestamp": 1762455175.6932743
+        },
+        {
+          "agent_id": "T01_A02",
+          "task_id": "task_177",
+          "status": "completed",
+          "timestamp": 1762455175.968899
+        },
+        {
+          "agent_id": "T01_A02",
+          "task_id": "task_12",
+          "status": "completed",
+          "timestamp": 1762455176.1930838
+        },
+        {
+          "agent_id": "T01_A03",
+          "task_id": "task_151",
+          "status": "completed",
+          "timestamp": 1762455176.413507
+        },
+        {
+          "agent_id": "T01_A03",
+          "task_id": "task_173",
+          "status": "completed",
+          "timestamp": 1762455176.6401167
+        },
+        {
+          "agent_id": "T01_A03",
+          "task_id": "task_81",
+          "status": "completed",
+          "timestamp": 1762455176.8656957
+        },
+        {
+          "agent_id": "T01_A04",
+          "task_id": "task_27",
+          "status": "completed",
+          "timestamp": 1762455177.0822482
+        },
+        {
+          "agent_id": "T01_A04",
+          "task_id": "task_2",
+          "status": "completed",
+          "timestamp": 1762455177.2902646
+        },
+        {
+          "agent_id": "T01_A04",
+          "task_id": "task_87",
+          "status": "completed",
+          "timestamp": 1762455177.4957209
+        },
+        {
+          "agent_id": "T01_A05",
+          "task_id": "task_126",
+          "status": "completed",
+          "timestamp": 1762455177.7192204
+        },
+        {
+          "agent_id": "T01_A05",
+          "task_id": "task_77",
+          "status": "completed",
+          "timestamp": 1762455177.972357
+        },
+        {
+          "agent_id": "T01_A05",
+          "task_id": "task_197",
+          "status": "completed",
+          "timestamp": 1762455178.210882
+        },
+        {
+          "agent_id": "T01_A06",
+          "task_id": "task_160",
+          "status": "completed",
+          "timestamp": 1762455178.443552
+        },
+        {
+          "agent_id": "T01_A06",
+          "task_id": "task_147",
+          "status": "completed",
+          "timestamp": 1762455178.6737044
+        },
+        {
+          "agent_id": "T01_A06",
+          "task_id": "task_153",
+          "status": "completed",
+          "timestamp": 1762455178.9185221
+        },
+        {
+          "agent_id": "T01_A07",
+          "task_id": "task_55",
+          "status": "completed",
+          "timestamp": 1762455179.1519182
+        },
+        {
+          "agent_id": "T01_A07",
+          "task_id": "task_136",
+          "status": "completed",
+          "timestamp": 1762455179.3819973
+        },
+        {
+          "agent_id": "T01_A07",
+          "task_id": "task_183",
+          "status": "completed",
+          "timestamp": 1762455179.6296287
+        },
+        {
+          "agent_id": "T01_A08",
+          "task_id": "task_154",
+          "status": "completed",
+          "timestamp": 1762455179.8909957
+        },
+        {
+          "agent_id": "T01_A08",
+          "task_id": "task_173",
+          "status": "completed",
+          "timestamp": 1762455180.1588705
+        },
+        {
+          "agent_id": "T01_A08",
+          "task_id": "task_115",
+          "status": "completed",
+          "timestamp": 1762455180.4173286
+        },
+        {
+          "agent_id": "T01_A09",
+          "task_id": "task_98",
+          "status": "completed",
+          "timestamp": 1762455180.6801674
+        },
+        {
+          "agent_id": "T01_A09",
+          "task_id": "task_91",
+          "status": "completed",
+          "timestamp": 1762455180.9429545
+        },
+        {
+          "agent_id": "T01_A09",
+          "task_id": "task_109",
+          "status": "completed",
+          "timestamp": 1762455181.1764324
+        },
+        {
+          "agent_id": "T01_A10",
+          "task_id": "task_49",
+          "status": "completed",
+          "timestamp": 1762455181.3976653
+        },
+        {
+          "agent_id": "T01_A10",
+          "task_id": "task_198",
+          "status": "completed",
+          "timestamp": 1762455181.6489856
+        },
+        {
+          "agent_id": "T01_A10",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455181.9083886
+        },
+        {
+          "agent_id": "T02_A01",
+          "task_id": "task_100",
+          "status": "completed",
+          "timestamp": 1762455182.1364667
+        },
+        {
+          "agent_id": "T02_A01",
+          "task_id": "task_26",
+          "status": "completed",
+          "timestamp": 1762455182.3967838
+        },
+        {
+          "agent_id": "T02_A01",
+          "task_id": "task_136",
+          "status": "completed",
+          "timestamp": 1762455182.6601102
+        },
+        {
+          "agent_id": "T02_A02",
+          "task_id": "task_100",
+          "status": "completed",
+          "timestamp": 1762455182.9058144
+        },
+        {
+          "agent_id": "T02_A02",
+          "task_id": "task_55",
+          "status": "completed",
+          "timestamp": 1762455183.1797385
+        },
+        {
+          "agent_id": "T02_A02",
+          "task_id": "task_169",
+          "status": "completed",
+          "timestamp": 1762455183.4276996
+        },
+        {
+          "agent_id": "T02_A03",
+          "task_id": "task_84",
+          "status": "completed",
+          "timestamp": 1762455183.6686156
+        },
+        {
+          "agent_id": "T02_A03",
+          "task_id": "task_169",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455183.9605305
+        },
+        {
+          "agent_id": "T02_A03",
+          "task_id": "task_4",
+          "status": "completed",
+          "timestamp": 1762455184.8594542
+        },
+        {
+          "agent_id": "T02_A04",
+          "task_id": "task_12",
+          "status": "completed",
+          "timestamp": 1762455185.093245
+        },
+        {
+          "agent_id": "T02_A04",
+          "task_id": "task_45",
+          "status": "completed",
+          "timestamp": 1762455185.340481
+        },
+        {
+          "agent_id": "T02_A04",
+          "task_id": "task_106",
+          "status": "completed",
+          "timestamp": 1762455185.586543
+        },
+        {
+          "agent_id": "T02_A05",
+          "task_id": "task_156",
+          "status": "completed",
+          "timestamp": 1762455185.823518
+        },
+        {
+          "agent_id": "T02_A05",
+          "task_id": "task_47",
+          "status": "completed",
+          "timestamp": 1762455186.0752733
+        },
+        {
+          "agent_id": "T02_A05",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455186.3280764
+        },
+        {
+          "agent_id": "T02_A06",
+          "task_id": "task_187",
+          "status": "completed",
+          "timestamp": 1762455186.5857074
+        },
+        {
+          "agent_id": "T02_A06",
+          "task_id": "task_134",
+          "status": "completed",
+          "timestamp": 1762455186.817211
+        },
+        {
+          "agent_id": "T02_A06",
+          "task_id": "task_68",
+          "status": "completed",
+          "timestamp": 1762455187.057456
+        },
+        {
+          "agent_id": "T02_A07",
+          "task_id": "task_125",
+          "status": "completed",
+          "timestamp": 1762455187.307788
+        },
+        {
+          "agent_id": "T02_A07",
+          "task_id": "task_94",
+          "status": "completed",
+          "timestamp": 1762455187.5630069
+        },
+        {
+          "agent_id": "T02_A07",
+          "task_id": "task_185",
+          "status": "completed",
+          "timestamp": 1762455187.8007276
+        },
+        {
+          "agent_id": "T02_A08",
+          "task_id": "task_131",
+          "status": "completed",
+          "timestamp": 1762455188.0529213
+        },
+        {
+          "agent_id": "T02_A08",
+          "task_id": "task_92",
+          "status": "completed",
+          "timestamp": 1762455188.3527086
+        },
+        {
+          "agent_id": "T02_A08",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455188.6903956
+        },
+        {
+          "agent_id": "T02_A09",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455188.9608035
+        },
+        {
+          "agent_id": "T02_A09",
+          "task_id": "task_83",
+          "status": "completed",
+          "timestamp": 1762455189.2037096
+        },
+        {
+          "agent_id": "T02_A09",
+          "task_id": "task_124",
+          "status": "completed",
+          "timestamp": 1762455189.4357193
+        },
+        {
+          "agent_id": "T02_A10",
+          "task_id": "task_147",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455189.667315
+        },
+        {
+          "agent_id": "T02_A10",
+          "task_id": "task_53",
+          "status": "completed",
+          "timestamp": 1762455190.5018423
+        },
+        {
+          "agent_id": "T02_A10",
+          "task_id": "task_193",
+          "status": "completed",
+          "timestamp": 1762455190.7404938
+        },
+        {
+          "agent_id": "T03_A01",
+          "task_id": "task_40",
+          "status": "completed",
+          "timestamp": 1762455190.9671187
+        },
+        {
+          "agent_id": "T03_A01",
+          "task_id": "task_131",
+          "status": "completed",
+          "timestamp": 1762455191.2131436
+        },
+        {
+          "agent_id": "T03_A01",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455191.4620173
+        },
+        {
+          "agent_id": "T03_A02",
+          "task_id": "task_197",
+          "status": "completed",
+          "timestamp": 1762455191.7023406
+        },
+        {
+          "agent_id": "T03_A02",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455191.9503
+        },
+        {
+          "agent_id": "T03_A02",
+          "task_id": "task_21",
+          "status": "completed",
+          "timestamp": 1762455192.2137663
+        },
+        {
+          "agent_id": "T03_A03",
+          "task_id": "task_39",
+          "status": "completed",
+          "timestamp": 1762455192.4807663
+        },
+        {
+          "agent_id": "T03_A03",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455192.7328517
+        },
+        {
+          "agent_id": "T03_A03",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455192.9973345
+        },
+        {
+          "agent_id": "T03_A04",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455193.2406929
+        },
+        {
+          "agent_id": "T03_A04",
+          "task_id": "task_9",
+          "status": "completed",
+          "timestamp": 1762455193.4576392
+        },
+        {
+          "agent_id": "T03_A04",
+          "task_id": "task_1",
+          "status": "completed",
+          "timestamp": 1762455193.6920218
+        },
+        {
+          "agent_id": "T03_A05",
+          "task_id": "task_20",
+          "status": "completed",
+          "timestamp": 1762455193.9636488
+        },
+        {
+          "agent_id": "T03_A05",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455194.228506
+        },
+        {
+          "agent_id": "T03_A05",
+          "task_id": "task_22",
+          "status": "completed",
+          "timestamp": 1762455194.482236
+        },
+        {
+          "agent_id": "T03_A06",
+          "task_id": "task_36",
+          "status": "completed",
+          "timestamp": 1762455194.763169
+        },
+        {
+          "agent_id": "T03_A06",
+          "task_id": "task_179",
+          "status": "completed",
+          "timestamp": 1762455194.9906812
+        },
+        {
+          "agent_id": "T03_A06",
+          "task_id": "task_42",
+          "status": "completed",
+          "timestamp": 1762455195.2345374
+        },
+        {
+          "agent_id": "T03_A07",
+          "task_id": "task_8",
+          "status": "completed",
+          "timestamp": 1762455195.4978213
+        },
+        {
+          "agent_id": "T03_A07",
+          "task_id": "task_188",
+          "status": "completed",
+          "timestamp": 1762455195.7572467
+        },
+        {
+          "agent_id": "T03_A07",
+          "task_id": "task_33",
+          "status": "completed",
+          "timestamp": 1762455196.0172362
+        },
+        {
+          "agent_id": "T03_A08",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455196.2606378
+        },
+        {
+          "agent_id": "T03_A08",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455196.5410795
+        },
+        {
+          "agent_id": "T03_A08",
+          "task_id": "task_12",
+          "status": "completed",
+          "timestamp": 1762455196.803974
+        },
+        {
+          "agent_id": "T03_A09",
+          "task_id": "task_25",
+          "status": "completed",
+          "timestamp": 1762455197.069247
+        },
+        {
+          "agent_id": "T03_A09",
+          "task_id": "task_163",
+          "status": "completed",
+          "timestamp": 1762455197.309275
+        },
+        {
+          "agent_id": "T03_A09",
+          "task_id": "task_73",
+          "status": "completed",
+          "timestamp": 1762455197.5160198
+        },
+        {
+          "agent_id": "T03_A10",
+          "task_id": "task_93",
+          "status": "completed",
+          "timestamp": 1762455197.7427142
+        },
+        {
+          "agent_id": "T03_A10",
+          "task_id": "task_11",
+          "status": "completed",
+          "timestamp": 1762455197.9778032
+        },
+        {
+          "agent_id": "T03_A10",
+          "task_id": "task_9",
+          "status": "completed",
+          "timestamp": 1762455198.2277603
+        },
+        {
+          "agent_id": "T04_A01",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455198.4865844
+        },
+        {
+          "agent_id": "T04_A01",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455198.736559
+        },
+        {
+          "agent_id": "T04_A01",
+          "task_id": "task_43",
+          "status": "completed",
+          "timestamp": 1762455198.974572
+        },
+        {
+          "agent_id": "T04_A02",
+          "task_id": "task_63",
+          "status": "completed",
+          "timestamp": 1762455199.2071626
+        },
+        {
+          "agent_id": "T04_A02",
+          "task_id": "task_47",
+          "status": "completed",
+          "timestamp": 1762455199.430792
+        },
+        {
+          "agent_id": "T04_A02",
+          "task_id": "task_80",
+          "status": "completed",
+          "timestamp": 1762455199.686832
+        },
+        {
+          "agent_id": "T04_A03",
+          "task_id": "task_20",
+          "status": "completed",
+          "timestamp": 1762455199.945191
+        },
+        {
+          "agent_id": "T04_A03",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455200.178916
+        },
+        {
+          "agent_id": "T04_A03",
+          "task_id": "task_160",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455200.4280329
+        },
+        {
+          "agent_id": "T04_A04",
+          "task_id": "task_81",
+          "status": "completed",
+          "timestamp": 1762455201.1998134
+        },
+        {
+          "agent_id": "T04_A04",
+          "task_id": "task_72",
+          "status": "completed",
+          "timestamp": 1762455201.4304402
+        },
+        {
+          "agent_id": "T04_A04",
+          "task_id": "task_67",
+          "status": "completed",
+          "timestamp": 1762455201.675719
+        },
+        {
+          "agent_id": "T04_A05",
+          "task_id": "task_182",
+          "status": "completed",
+          "timestamp": 1762455201.9273925
+        },
+        {
+          "agent_id": "T04_A05",
+          "task_id": "task_96",
+          "status": "completed",
+          "timestamp": 1762455202.166933
+        },
+        {
+          "agent_id": "T04_A05",
+          "task_id": "task_94",
+          "status": "completed",
+          "timestamp": 1762455202.4337797
+        },
+        {
+          "agent_id": "T04_A06",
+          "task_id": "task_100",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455202.6946547
+        },
+        {
+          "agent_id": "T04_A06",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455203.4986002
+        },
+        {
+          "agent_id": "T04_A06",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455203.7525449
+        },
+        {
+          "agent_id": "T04_A07",
+          "task_id": "task_158",
+          "status": "completed",
+          "timestamp": 1762455204.0265338
+        },
+        {
+          "agent_id": "T04_A07",
+          "task_id": "task_140",
+          "status": "completed",
+          "timestamp": 1762455204.2756739
+        },
+        {
+          "agent_id": "T04_A07",
+          "task_id": "task_11",
+          "status": "completed",
+          "timestamp": 1762455204.5240948
+        },
+        {
+          "agent_id": "T04_A08",
+          "task_id": "task_18",
+          "status": "completed",
+          "timestamp": 1762455204.7514296
+        },
+        {
+          "agent_id": "T04_A08",
+          "task_id": "task_191",
+          "status": "completed",
+          "timestamp": 1762455204.9857566
+        },
+        {
+          "agent_id": "T04_A08",
+          "task_id": "task_53",
+          "status": "completed",
+          "timestamp": 1762455205.2338367
+        },
+        {
+          "agent_id": "T04_A09",
+          "task_id": "task_61",
+          "status": "completed",
+          "timestamp": 1762455205.4562793
+        },
+        {
+          "agent_id": "T04_A09",
+          "task_id": "task_148",
+          "status": "completed",
+          "timestamp": 1762455205.6982987
+        },
+        {
+          "agent_id": "T04_A09",
+          "task_id": "task_80",
+          "status": "completed",
+          "timestamp": 1762455205.9864745
+        },
+        {
+          "agent_id": "T04_A10",
+          "task_id": "task_64",
+          "status": "completed",
+          "timestamp": 1762455206.2201529
+        },
+        {
+          "agent_id": "T04_A10",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455206.4630847
+        },
+        {
+          "agent_id": "T04_A10",
+          "task_id": "task_163",
+          "status": "completed",
+          "timestamp": 1762455206.6805274
+        },
+        {
+          "agent_id": "T05_A01",
+          "task_id": "task_72",
+          "status": "completed",
+          "timestamp": 1762455206.9080184
+        },
+        {
+          "agent_id": "T05_A01",
+          "task_id": "task_184",
+          "status": "completed",
+          "timestamp": 1762455207.1490657
+        },
+        {
+          "agent_id": "T05_A01",
+          "task_id": "task_144",
+          "status": "completed",
+          "timestamp": 1762455207.4185355
+        },
+        {
+          "agent_id": "T05_A02",
+          "task_id": "task_40",
+          "status": "completed",
+          "timestamp": 1762455207.677636
+        },
+        {
+          "agent_id": "T05_A02",
+          "task_id": "task_27",
+          "status": "completed",
+          "timestamp": 1762455207.9510715
+        },
+        {
+          "agent_id": "T05_A02",
+          "task_id": "task_105",
+          "status": "completed",
+          "timestamp": 1762455208.2685492
+        },
+        {
+          "agent_id": "T05_A03",
+          "task_id": "task_131",
+          "status": "completed",
+          "timestamp": 1762455208.5293796
+        },
+        {
+          "agent_id": "T05_A03",
+          "task_id": "task_32",
+          "status": "completed",
+          "timestamp": 1762455208.77005
+        },
+        {
+          "agent_id": "T05_A03",
+          "task_id": "task_158",
+          "status": "completed",
+          "timestamp": 1762455209.0158474
+        },
+        {
+          "agent_id": "T05_A04",
+          "task_id": "task_46",
+          "status": "completed",
+          "timestamp": 1762455209.2672446
+        },
+        {
+          "agent_id": "T05_A04",
+          "task_id": "task_34",
+          "status": "completed",
+          "timestamp": 1762455209.5184987
+        },
+        {
+          "agent_id": "T05_A04",
+          "task_id": "task_187",
+          "status": "completed",
+          "timestamp": 1762455209.770692
+        },
+        {
+          "agent_id": "T05_A05",
+          "task_id": "task_193",
+          "status": "completed",
+          "timestamp": 1762455210.008005
+        },
+        {
+          "agent_id": "T05_A05",
+          "task_id": "task_120",
+          "status": "completed",
+          "timestamp": 1762455210.2507305
+        },
+        {
+          "agent_id": "T05_A05",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455210.4878564
+        },
+        {
+          "agent_id": "T05_A06",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455210.7318177
+        },
+        {
+          "agent_id": "T05_A06",
+          "task_id": "task_36",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455210.9814527
+        },
+        {
+          "agent_id": "T05_A06",
+          "task_id": "task_5",
+          "status": "completed",
+          "timestamp": 1762455211.8493016
+        },
+        {
+          "agent_id": "T05_A07",
+          "task_id": "task_13",
+          "status": "completed",
+          "timestamp": 1762455212.1134012
+        },
+        {
+          "agent_id": "T05_A07",
+          "task_id": "task_146",
+          "status": "completed",
+          "timestamp": 1762455212.366739
+        },
+        {
+          "agent_id": "T05_A07",
+          "task_id": "task_33",
+          "status": "completed",
+          "timestamp": 1762455212.6202488
+        },
+        {
+          "agent_id": "T05_A08",
+          "task_id": "task_49",
+          "status": "completed",
+          "timestamp": 1762455212.8712876
+        },
+        {
+          "agent_id": "T05_A08",
+          "task_id": "task_64",
+          "status": "completed",
+          "timestamp": 1762455213.1209664
+        },
+        {
+          "agent_id": "T05_A08",
+          "task_id": "task_138",
+          "status": "completed",
+          "timestamp": 1762455213.3835316
+        },
+        {
+          "agent_id": "T05_A09",
+          "task_id": "task_106",
+          "status": "completed",
+          "timestamp": 1762455213.6280837
+        },
+        {
+          "agent_id": "T05_A09",
+          "task_id": "task_30",
+          "status": "completed",
+          "timestamp": 1762455213.8476198
+        },
+        {
+          "agent_id": "T05_A09",
+          "task_id": "task_120",
+          "status": "completed",
+          "timestamp": 1762455214.1193533
+        },
+        {
+          "agent_id": "T05_A10",
+          "task_id": "task_5",
+          "status": "completed",
+          "timestamp": 1762455214.3609724
+        },
+        {
+          "agent_id": "T05_A10",
+          "task_id": "task_183",
+          "status": "completed",
+          "timestamp": 1762455214.6076748
+        },
+        {
+          "agent_id": "T05_A10",
+          "task_id": "task_38",
+          "status": "completed",
+          "timestamp": 1762455214.8784287
+        },
+        {
+          "agent_id": "T06_A01",
+          "task_id": "task_40",
+          "status": "completed",
+          "timestamp": 1762455215.1487849
+        },
+        {
+          "agent_id": "T06_A01",
+          "task_id": "task_112",
+          "status": "completed",
+          "timestamp": 1762455215.4039476
+        },
+        {
+          "agent_id": "T06_A01",
+          "task_id": "task_69",
+          "status": "completed",
+          "timestamp": 1762455215.6456125
+        },
+        {
+          "agent_id": "T06_A02",
+          "task_id": "task_22",
+          "status": "completed",
+          "timestamp": 1762455215.9153912
+        },
+        {
+          "agent_id": "T06_A02",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455216.169683
+        },
+        {
+          "agent_id": "T06_A02",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455216.4431076
+        },
+        {
+          "agent_id": "T06_A03",
+          "task_id": "task_103",
+          "status": "completed",
+          "timestamp": 1762455216.6773245
+        },
+        {
+          "agent_id": "T06_A03",
+          "task_id": "task_188",
+          "status": "completed",
+          "timestamp": 1762455216.9367285
+        },
+        {
+          "agent_id": "T06_A03",
+          "task_id": "task_7",
+          "status": "completed",
+          "timestamp": 1762455217.187669
+        },
+        {
+          "agent_id": "T06_A04",
+          "task_id": "task_139",
+          "status": "completed",
+          "timestamp": 1762455217.4288096
+        },
+        {
+          "agent_id": "T06_A04",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455217.6424773
+        },
+        {
+          "agent_id": "T06_A04",
+          "task_id": "task_37",
+          "status": "completed",
+          "timestamp": 1762455217.8771446
+        },
+        {
+          "agent_id": "T06_A05",
+          "task_id": "task_173",
+          "status": "completed",
+          "timestamp": 1762455218.1127706
+        },
+        {
+          "agent_id": "T06_A05",
+          "task_id": "task_63",
+          "status": "completed",
+          "timestamp": 1762455218.3515692
+        },
+        {
+          "agent_id": "T06_A05",
+          "task_id": "task_24",
+          "status": "completed",
+          "timestamp": 1762455218.6111467
+        },
+        {
+          "agent_id": "T06_A06",
+          "task_id": "task_148",
+          "status": "completed",
+          "timestamp": 1762455218.860145
+        },
+        {
+          "agent_id": "T06_A06",
+          "task_id": "task_50",
+          "status": "completed",
+          "timestamp": 1762455219.1024497
+        },
+        {
+          "agent_id": "T06_A06",
+          "task_id": "task_163",
+          "status": "completed",
+          "timestamp": 1762455219.3365307
+        },
+        {
+          "agent_id": "T06_A07",
+          "task_id": "task_163",
+          "status": "completed",
+          "timestamp": 1762455219.5659895
+        },
+        {
+          "agent_id": "T06_A07",
+          "task_id": "task_58",
+          "status": "completed",
+          "timestamp": 1762455219.815178
+        },
+        {
+          "agent_id": "T06_A07",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455220.1788073
+        },
+        {
+          "agent_id": "T06_A08",
+          "task_id": "task_79",
+          "status": "completed",
+          "timestamp": 1762455220.4386935
+        },
+        {
+          "agent_id": "T06_A08",
+          "task_id": "task_69",
+          "status": "completed",
+          "timestamp": 1762455220.7045727
+        },
+        {
+          "agent_id": "T06_A08",
+          "task_id": "task_3",
+          "status": "completed",
+          "timestamp": 1762455220.9492433
+        },
+        {
+          "agent_id": "T06_A09",
+          "task_id": "task_52",
+          "status": "completed",
+          "timestamp": 1762455221.17875
+        },
+        {
+          "agent_id": "T06_A09",
+          "task_id": "task_55",
+          "status": "completed",
+          "timestamp": 1762455221.4358692
+        },
+        {
+          "agent_id": "T06_A09",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455221.6716518
+        },
+        {
+          "agent_id": "T06_A10",
+          "task_id": "task_82",
+          "status": "completed",
+          "timestamp": 1762455221.8987463
+        },
+        {
+          "agent_id": "T06_A10",
+          "task_id": "task_105",
+          "status": "completed",
+          "timestamp": 1762455222.1380227
+        },
+        {
+          "agent_id": "T06_A10",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455222.3777914
+        },
+        {
+          "agent_id": "T07_A01",
+          "task_id": "task_8",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455222.626708
+        },
+        {
+          "agent_id": "T07_A01",
+          "task_id": "task_50",
+          "status": "completed",
+          "timestamp": 1762455223.4377906
+        },
+        {
+          "agent_id": "T07_A01",
+          "task_id": "task_98",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455223.6881096
+        },
+        {
+          "agent_id": "T07_A02",
+          "task_id": "task_167",
+          "status": "completed",
+          "timestamp": 1762455224.576413
+        },
+        {
+          "agent_id": "T07_A02",
+          "task_id": "task_117",
+          "status": "completed",
+          "timestamp": 1762455224.8422992
+        },
+        {
+          "agent_id": "T07_A02",
+          "task_id": "task_139",
+          "status": "completed",
+          "timestamp": 1762455225.0913167
+        },
+        {
+          "agent_id": "T07_A03",
+          "task_id": "task_118",
+          "status": "completed",
+          "timestamp": 1762455225.3517747
+        },
+        {
+          "agent_id": "T07_A03",
+          "task_id": "task_149",
+          "status": "completed",
+          "timestamp": 1762455225.6031814
+        },
+        {
+          "agent_id": "T07_A03",
+          "task_id": "task_190",
+          "status": "completed",
+          "timestamp": 1762455225.9038544
+        },
+        {
+          "agent_id": "T07_A04",
+          "task_id": "task_68",
+          "status": "completed",
+          "timestamp": 1762455226.1511133
+        },
+        {
+          "agent_id": "T07_A04",
+          "task_id": "task_110",
+          "status": "completed",
+          "timestamp": 1762455226.3876216
+        },
+        {
+          "agent_id": "T07_A04",
+          "task_id": "task_38",
+          "status": "completed",
+          "timestamp": 1762455226.616914
+        },
+        {
+          "agent_id": "T07_A05",
+          "task_id": "task_125",
+          "status": "completed",
+          "timestamp": 1762455226.8754914
+        },
+        {
+          "agent_id": "T07_A05",
+          "task_id": "task_189",
+          "status": "completed",
+          "timestamp": 1762455227.1290908
+        },
+        {
+          "agent_id": "T07_A05",
+          "task_id": "task_84",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455227.3687768
+        },
+        {
+          "agent_id": "T07_A06",
+          "task_id": "task_102",
+          "status": "completed",
+          "timestamp": 1762455228.1935942
+        },
+        {
+          "agent_id": "T07_A06",
+          "task_id": "task_106",
+          "status": "completed",
+          "timestamp": 1762455228.4367926
+        },
+        {
+          "agent_id": "T07_A06",
+          "task_id": "task_56",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455228.6722796
+        },
+        {
+          "agent_id": "T07_A07",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455229.4314682
+        },
+        {
+          "agent_id": "T07_A07",
+          "task_id": "task_172",
+          "status": "completed",
+          "timestamp": 1762455229.6958988
+        },
+        {
+          "agent_id": "T07_A07",
+          "task_id": "task_193",
+          "status": "completed",
+          "timestamp": 1762455229.9469314
+        },
+        {
+          "agent_id": "T07_A08",
+          "task_id": "task_71",
+          "status": "completed",
+          "timestamp": 1762455230.1723723
+        },
+        {
+          "agent_id": "T07_A08",
+          "task_id": "task_149",
+          "status": "completed",
+          "timestamp": 1762455230.4059474
+        },
+        {
+          "agent_id": "T07_A08",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455230.6491506
+        },
+        {
+          "agent_id": "T07_A09",
+          "task_id": "task_117",
+          "status": "completed",
+          "timestamp": 1762455230.8853638
+        },
+        {
+          "agent_id": "T07_A09",
+          "task_id": "task_4",
+          "status": "completed",
+          "timestamp": 1762455231.1606233
+        },
+        {
+          "agent_id": "T07_A09",
+          "task_id": "task_26",
+          "status": "completed",
+          "timestamp": 1762455231.415538
+        },
+        {
+          "agent_id": "T07_A10",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455231.6821837
+        },
+        {
+          "agent_id": "T07_A10",
+          "task_id": "task_162",
+          "status": "completed",
+          "timestamp": 1762455231.916341
+        },
+        {
+          "agent_id": "T07_A10",
+          "task_id": "task_102",
+          "status": "completed",
+          "timestamp": 1762455232.1549358
+        },
+        {
+          "agent_id": "T08_A01",
+          "task_id": "task_33",
+          "status": "completed",
+          "timestamp": 1762455232.4092932
+        },
+        {
+          "agent_id": "T08_A01",
+          "task_id": "task_47",
+          "status": "completed",
+          "timestamp": 1762455232.633364
+        },
+        {
+          "agent_id": "T08_A01",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455232.872773
+        },
+        {
+          "agent_id": "T08_A02",
+          "task_id": "task_42",
+          "status": "completed",
+          "timestamp": 1762455233.10258
+        },
+        {
+          "agent_id": "T08_A02",
+          "task_id": "task_169",
+          "status": "completed",
+          "timestamp": 1762455233.359933
+        },
+        {
+          "agent_id": "T08_A02",
+          "task_id": "task_190",
+          "status": "completed",
+          "timestamp": 1762455233.6092134
+        },
+        {
+          "agent_id": "T08_A03",
+          "task_id": "task_27",
+          "status": "completed",
+          "timestamp": 1762455233.8537145
+        },
+        {
+          "agent_id": "T08_A03",
+          "task_id": "task_1",
+          "status": "completed",
+          "timestamp": 1762455234.0831795
+        },
+        {
+          "agent_id": "T08_A03",
+          "task_id": "task_117",
+          "status": "completed",
+          "timestamp": 1762455234.3213441
+        },
+        {
+          "agent_id": "T08_A04",
+          "task_id": "task_127",
+          "status": "completed",
+          "timestamp": 1762455234.5687327
+        },
+        {
+          "agent_id": "T08_A04",
+          "task_id": "task_138",
+          "status": "completed",
+          "timestamp": 1762455234.817121
+        },
+        {
+          "agent_id": "T08_A04",
+          "task_id": "task_115",
+          "status": "completed",
+          "timestamp": 1762455235.0665088
+        },
+        {
+          "agent_id": "T08_A05",
+          "task_id": "task_94",
+          "status": "completed",
+          "timestamp": 1762455235.326604
+        },
+        {
+          "agent_id": "T08_A05",
+          "task_id": "task_122",
+          "status": "completed",
+          "timestamp": 1762455235.5821958
+        },
+        {
+          "agent_id": "T08_A05",
+          "task_id": "task_115",
+          "status": "completed",
+          "timestamp": 1762455235.8337665
+        },
+        {
+          "agent_id": "T08_A06",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455236.0650077
+        },
+        {
+          "agent_id": "T08_A06",
+          "task_id": "task_116",
+          "status": "completed",
+          "timestamp": 1762455236.2676194
+        },
+        {
+          "agent_id": "T08_A06",
+          "task_id": "task_72",
+          "status": "completed",
+          "timestamp": 1762455236.487136
+        },
+        {
+          "agent_id": "T08_A07",
+          "task_id": "task_190",
+          "status": "completed",
+          "timestamp": 1762455236.753696
+        },
+        {
+          "agent_id": "T08_A07",
+          "task_id": "task_146",
+          "status": "completed",
+          "timestamp": 1762455237.027258
+        },
+        {
+          "agent_id": "T08_A07",
+          "task_id": "task_194",
+          "status": "completed",
+          "timestamp": 1762455237.2976787
+        },
+        {
+          "agent_id": "T08_A08",
+          "task_id": "task_28",
+          "status": "completed",
+          "timestamp": 1762455237.530876
+        },
+        {
+          "agent_id": "T08_A08",
+          "task_id": "task_134",
+          "status": "completed",
+          "timestamp": 1762455237.7390673
+        },
+        {
+          "agent_id": "T08_A08",
+          "task_id": "task_178",
+          "status": "completed",
+          "timestamp": 1762455237.9522665
+        },
+        {
+          "agent_id": "T08_A09",
+          "task_id": "task_183",
+          "status": "completed",
+          "timestamp": 1762455238.1673138
+        },
+        {
+          "agent_id": "T08_A09",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455238.3830628
+        },
+        {
+          "agent_id": "T08_A09",
+          "task_id": "task_77",
+          "status": "completed",
+          "timestamp": 1762455238.62623
+        },
+        {
+          "agent_id": "T08_A10",
+          "task_id": "task_134",
+          "status": "completed",
+          "timestamp": 1762455238.8300886
+        },
+        {
+          "agent_id": "T08_A10",
+          "task_id": "task_162",
+          "status": "completed",
+          "timestamp": 1762455239.0716898
+        },
+        {
+          "agent_id": "T08_A10",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455239.3301997
+        },
+        {
+          "agent_id": "T09_A01",
+          "task_id": "task_29",
+          "status": "completed",
+          "timestamp": 1762455239.580839
+        },
+        {
+          "agent_id": "T09_A01",
+          "task_id": "task_127",
+          "status": "completed",
+          "timestamp": 1762455239.8424344
+        },
+        {
+          "agent_id": "T09_A01",
+          "task_id": "task_3",
+          "status": "completed",
+          "timestamp": 1762455240.0948317
+        },
+        {
+          "agent_id": "T09_A02",
+          "task_id": "task_103",
+          "status": "completed",
+          "timestamp": 1762455240.3160627
+        },
+        {
+          "agent_id": "T09_A02",
+          "task_id": "task_31",
+          "status": "completed",
+          "timestamp": 1762455240.5495648
+        },
+        {
+          "agent_id": "T09_A02",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455240.7924893
+        },
+        {
+          "agent_id": "T09_A03",
+          "task_id": "task_22",
+          "status": "completed",
+          "timestamp": 1762455241.0318413
+        },
+        {
+          "agent_id": "T09_A03",
+          "task_id": "task_32",
+          "status": "completed",
+          "timestamp": 1762455241.2874258
+        },
+        {
+          "agent_id": "T09_A03",
+          "task_id": "task_61",
+          "status": "completed",
+          "timestamp": 1762455241.5004573
+        },
+        {
+          "agent_id": "T09_A04",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455241.7470806
+        },
+        {
+          "agent_id": "T09_A04",
+          "task_id": "task_158",
+          "status": "completed",
+          "timestamp": 1762455241.9988441
+        },
+        {
+          "agent_id": "T09_A04",
+          "task_id": "task_19",
+          "status": "completed",
+          "timestamp": 1762455242.2452147
+        },
+        {
+          "agent_id": "T09_A05",
+          "task_id": "task_146",
+          "status": "completed",
+          "timestamp": 1762455242.4769526
+        },
+        {
+          "agent_id": "T09_A05",
+          "task_id": "task_83",
+          "status": "completed",
+          "timestamp": 1762455242.7183123
+        },
+        {
+          "agent_id": "T09_A05",
+          "task_id": "task_187",
+          "status": "completed",
+          "timestamp": 1762455242.9729533
+        },
+        {
+          "agent_id": "T09_A06",
+          "task_id": "task_115",
+          "status": "completed",
+          "timestamp": 1762455243.221772
+        },
+        {
+          "agent_id": "T09_A06",
+          "task_id": "task_36",
+          "status": "completed",
+          "timestamp": 1762455243.5157335
+        },
+        {
+          "agent_id": "T09_A06",
+          "task_id": "task_123",
+          "status": "completed",
+          "timestamp": 1762455243.7487993
+        },
+        {
+          "agent_id": "T09_A07",
+          "task_id": "task_84",
+          "status": "completed",
+          "timestamp": 1762455244.00619
+        },
+        {
+          "agent_id": "T09_A07",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455244.2481303
+        },
+        {
+          "agent_id": "T09_A07",
+          "task_id": "task_134",
+          "status": "completed",
+          "timestamp": 1762455244.4888666
+        },
+        {
+          "agent_id": "T09_A08",
+          "task_id": "task_130",
+          "status": "completed",
+          "timestamp": 1762455244.7706294
+        },
+        {
+          "agent_id": "T09_A08",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455245.0105858
+        },
+        {
+          "agent_id": "T09_A08",
+          "task_id": "task_79",
+          "status": "completed",
+          "timestamp": 1762455245.255968
+        },
+        {
+          "agent_id": "T09_A09",
+          "task_id": "task_99",
+          "status": "completed",
+          "timestamp": 1762455245.5199316
+        },
+        {
+          "agent_id": "T09_A09",
+          "task_id": "task_91",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455245.7657638
+        },
+        {
+          "agent_id": "T09_A09",
+          "task_id": "task_162",
+          "status": "completed",
+          "timestamp": 1762455246.5641503
+        },
+        {
+          "agent_id": "T09_A10",
+          "task_id": "task_58",
+          "status": "completed",
+          "timestamp": 1762455246.7981822
+        },
+        {
+          "agent_id": "T09_A10",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455247.0341523
+        },
+        {
+          "agent_id": "T09_A10",
+          "task_id": "task_166",
+          "status": "completed",
+          "timestamp": 1762455247.2782357
+        },
+        {
+          "agent_id": "T10_A01",
+          "task_id": "task_193",
+          "status": "completed",
+          "timestamp": 1762455247.5294147
+        },
+        {
+          "agent_id": "T10_A01",
+          "task_id": "task_8",
+          "status": "completed",
+          "timestamp": 1762455247.7636833
+        },
+        {
+          "agent_id": "T10_A01",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455247.9992163
+        },
+        {
+          "agent_id": "T10_A02",
+          "task_id": "task_43",
+          "status": "completed",
+          "timestamp": 1762455248.2520125
+        },
+        {
+          "agent_id": "T10_A02",
+          "task_id": "task_59",
+          "status": "completed",
+          "timestamp": 1762455248.5282445
+        },
+        {
+          "agent_id": "T10_A02",
+          "task_id": "task_67",
+          "status": "completed",
+          "timestamp": 1762455248.7763414
+        },
+        {
+          "agent_id": "T10_A03",
+          "task_id": "task_45",
+          "status": "completed",
+          "timestamp": 1762455249.0301435
+        },
+        {
+          "agent_id": "T10_A03",
+          "task_id": "task_103",
+          "status": "completed",
+          "timestamp": 1762455249.272351
+        },
+        {
+          "agent_id": "T10_A03",
+          "task_id": "task_61",
+          "status": "completed",
+          "timestamp": 1762455249.5370603
+        },
+        {
+          "agent_id": "T10_A04",
+          "task_id": "task_108",
+          "status": "completed",
+          "timestamp": 1762455249.7768443
+        },
+        {
+          "agent_id": "T10_A04",
+          "task_id": "task_62",
+          "status": "completed",
+          "timestamp": 1762455250.010304
+        },
+        {
+          "agent_id": "T10_A04",
+          "task_id": "task_131",
+          "status": "completed",
+          "timestamp": 1762455250.2488513
+        },
+        {
+          "agent_id": "T10_A05",
+          "task_id": "task_120",
+          "status": "completed",
+          "timestamp": 1762455250.4887183
+        },
+        {
+          "agent_id": "T10_A05",
+          "task_id": "task_21",
+          "status": "completed",
+          "timestamp": 1762455250.7428608
+        },
+        {
+          "agent_id": "T10_A05",
+          "task_id": "task_136",
+          "status": "completed",
+          "timestamp": 1762455251.0050874
+        },
+        {
+          "agent_id": "T10_A06",
+          "task_id": "task_46",
+          "status": "completed",
+          "timestamp": 1762455251.2466354
+        },
+        {
+          "agent_id": "T10_A06",
+          "task_id": "task_144",
+          "status": "completed",
+          "timestamp": 1762455251.562765
+        },
+        {
+          "agent_id": "T10_A06",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455251.7837899
+        },
+        {
+          "agent_id": "T10_A07",
+          "task_id": "task_63",
+          "status": "completed",
+          "timestamp": 1762455252.0300038
+        },
+        {
+          "agent_id": "T10_A07",
+          "task_id": "task_123",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455252.2983825
+        },
+        {
+          "agent_id": "T10_A07",
+          "task_id": "task_7",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455253.1959252
+        },
+        {
+          "agent_id": "T10_A08",
+          "task_id": "task_180",
+          "status": "completed",
+          "timestamp": 1762455254.0032976
+        },
+        {
+          "agent_id": "T10_A08",
+          "task_id": "task_70",
+          "status": "completed",
+          "timestamp": 1762455254.2383487
+        },
+        {
+          "agent_id": "T10_A08",
+          "task_id": "task_92",
+          "status": "completed",
+          "timestamp": 1762455254.5159729
+        },
+        {
+          "agent_id": "T10_A09",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455254.751201
+        },
+        {
+          "agent_id": "T10_A09",
+          "task_id": "task_150",
+          "status": "completed",
+          "timestamp": 1762455254.9986906
+        },
+        {
+          "agent_id": "T10_A09",
+          "task_id": "task_25",
+          "status": "completed",
+          "timestamp": 1762455255.232238
+        },
+        {
+          "agent_id": "T10_A10",
+          "task_id": "task_104",
+          "status": "completed",
+          "timestamp": 1762455255.46687
+        },
+        {
+          "agent_id": "T10_A10",
+          "task_id": "task_95",
+          "status": "completed",
+          "timestamp": 1762455255.7223728
+        },
+        {
+          "agent_id": "T10_A10",
+          "task_id": "task_92",
+          "status": "completed",
+          "timestamp": 1762455255.9735436
+        },
+        {
+          "agent_id": "T11_A01",
+          "task_id": "task_143",
+          "status": "completed",
+          "timestamp": 1762455256.2067745
+        },
+        {
+          "agent_id": "T11_A01",
+          "task_id": "task_65",
+          "status": "completed",
+          "timestamp": 1762455256.4534597
+        },
+        {
+          "agent_id": "T11_A01",
+          "task_id": "task_27",
+          "status": "completed",
+          "timestamp": 1762455256.7131348
+        },
+        {
+          "agent_id": "T11_A02",
+          "task_id": "task_86",
+          "status": "completed",
+          "timestamp": 1762455256.951225
+        },
+        {
+          "agent_id": "T11_A02",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455257.1792593
+        },
+        {
+          "agent_id": "T11_A02",
+          "task_id": "task_51",
+          "status": "completed",
+          "timestamp": 1762455257.4063158
+        },
+        {
+          "agent_id": "T11_A03",
+          "task_id": "task_7",
+          "status": "completed",
+          "timestamp": 1762455257.660906
+        },
+        {
+          "agent_id": "T11_A03",
+          "task_id": "task_172",
+          "status": "completed",
+          "timestamp": 1762455257.9169266
+        },
+        {
+          "agent_id": "T11_A03",
+          "task_id": "task_51",
+          "status": "completed",
+          "timestamp": 1762455258.1482525
+        },
+        {
+          "agent_id": "T11_A04",
+          "task_id": "task_128",
+          "status": "completed",
+          "timestamp": 1762455258.4182527
+        },
+        {
+          "agent_id": "T11_A04",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455258.7385378
+        },
+        {
+          "agent_id": "T11_A04",
+          "task_id": "task_99",
+          "status": "completed",
+          "timestamp": 1762455258.9858823
+        },
+        {
+          "agent_id": "T11_A05",
+          "task_id": "task_177",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455259.2316384
+        },
+        {
+          "agent_id": "T11_A05",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455260.0076096
+        },
+        {
+          "agent_id": "T11_A05",
+          "task_id": "task_44",
+          "status": "completed",
+          "timestamp": 1762455260.2612796
+        },
+        {
+          "agent_id": "T11_A06",
+          "task_id": "task_61",
+          "status": "completed",
+          "timestamp": 1762455260.5181265
+        },
+        {
+          "agent_id": "T11_A06",
+          "task_id": "task_16",
+          "status": "completed",
+          "timestamp": 1762455260.764168
+        },
+        {
+          "agent_id": "T11_A06",
+          "task_id": "task_23",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455261.0002942
+        },
+        {
+          "agent_id": "T11_A07",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455261.8074937
+        },
+        {
+          "agent_id": "T11_A07",
+          "task_id": "task_113",
+          "status": "completed",
+          "timestamp": 1762455262.078287
+        },
+        {
+          "agent_id": "T11_A07",
+          "task_id": "task_83",
+          "status": "completed",
+          "timestamp": 1762455262.337793
+        },
+        {
+          "agent_id": "T11_A08",
+          "task_id": "task_72",
+          "status": "completed",
+          "timestamp": 1762455262.6049616
+        },
+        {
+          "agent_id": "T11_A08",
+          "task_id": "task_139",
+          "status": "completed",
+          "timestamp": 1762455262.8680408
+        },
+        {
+          "agent_id": "T11_A08",
+          "task_id": "task_136",
+          "status": "completed",
+          "timestamp": 1762455263.0870996
+        },
+        {
+          "agent_id": "T11_A09",
+          "task_id": "task_50",
+          "status": "completed",
+          "timestamp": 1762455263.3299112
+        },
+        {
+          "agent_id": "T11_A09",
+          "task_id": "task_129",
+          "status": "completed",
+          "timestamp": 1762455263.5704803
+        },
+        {
+          "agent_id": "T11_A09",
+          "task_id": "task_32",
+          "status": "completed",
+          "timestamp": 1762455263.8521261
+        },
+        {
+          "agent_id": "T11_A10",
+          "task_id": "task_20",
+          "status": "completed",
+          "timestamp": 1762455264.0866282
+        },
+        {
+          "agent_id": "T11_A10",
+          "task_id": "task_7",
+          "status": "completed",
+          "timestamp": 1762455264.3487914
+        },
+        {
+          "agent_id": "T11_A10",
+          "task_id": "task_105",
+          "status": "completed",
+          "timestamp": 1762455264.6054075
+        },
+        {
+          "agent_id": "T12_A01",
+          "task_id": "task_91",
+          "status": "completed",
+          "timestamp": 1762455264.844825
+        },
+        {
+          "agent_id": "T12_A01",
+          "task_id": "task_157",
+          "status": "completed",
+          "timestamp": 1762455265.117213
+        },
+        {
+          "agent_id": "T12_A01",
+          "task_id": "task_31",
+          "status": "completed",
+          "timestamp": 1762455265.3882143
+        },
+        {
+          "agent_id": "T12_A02",
+          "task_id": "task_168",
+          "status": "completed",
+          "timestamp": 1762455265.6277852
+        },
+        {
+          "agent_id": "T12_A02",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455265.871838
+        },
+        {
+          "agent_id": "T12_A02",
+          "task_id": "task_23",
+          "status": "completed",
+          "timestamp": 1762455266.1066055
+        },
+        {
+          "agent_id": "T12_A03",
+          "task_id": "task_168",
+          "status": "completed",
+          "timestamp": 1762455266.3445406
+        },
+        {
+          "agent_id": "T12_A03",
+          "task_id": "task_32",
+          "status": "completed",
+          "timestamp": 1762455266.5819626
+        },
+        {
+          "agent_id": "T12_A03",
+          "task_id": "task_5",
+          "status": "completed",
+          "timestamp": 1762455266.836283
+        },
+        {
+          "agent_id": "T12_A04",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455267.0835085
+        },
+        {
+          "agent_id": "T12_A04",
+          "task_id": "task_41",
+          "status": "completed",
+          "timestamp": 1762455267.3189292
+        },
+        {
+          "agent_id": "T12_A04",
+          "task_id": "task_1",
+          "status": "completed",
+          "timestamp": 1762455267.549921
+        },
+        {
+          "agent_id": "T12_A05",
+          "task_id": "task_70",
+          "status": "completed",
+          "timestamp": 1762455267.791001
+        },
+        {
+          "agent_id": "T12_A05",
+          "task_id": "task_156",
+          "status": "completed",
+          "timestamp": 1762455268.0344236
+        },
+        {
+          "agent_id": "T12_A05",
+          "task_id": "task_36",
+          "status": "completed",
+          "timestamp": 1762455268.2937937
+        },
+        {
+          "agent_id": "T12_A06",
+          "task_id": "task_19",
+          "status": "completed",
+          "timestamp": 1762455268.536316
+        },
+        {
+          "agent_id": "T12_A06",
+          "task_id": "task_66",
+          "status": "completed",
+          "timestamp": 1762455268.7644346
+        },
+        {
+          "agent_id": "T12_A06",
+          "task_id": "task_137",
+          "status": "completed",
+          "timestamp": 1762455269.0004592
+        },
+        {
+          "agent_id": "T12_A07",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455269.2498457
+        },
+        {
+          "agent_id": "T12_A07",
+          "task_id": "task_15",
+          "status": "completed",
+          "timestamp": 1762455269.527598
+        },
+        {
+          "agent_id": "T12_A07",
+          "task_id": "task_164",
+          "status": "completed",
+          "timestamp": 1762455269.786274
+        },
+        {
+          "agent_id": "T12_A08",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455270.0308828
+        },
+        {
+          "agent_id": "T12_A08",
+          "task_id": "task_109",
+          "status": "completed",
+          "timestamp": 1762455270.2667823
+        },
+        {
+          "agent_id": "T12_A08",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455270.523687
+        },
+        {
+          "agent_id": "T12_A09",
+          "task_id": "task_83",
+          "status": "completed",
+          "timestamp": 1762455270.7447486
+        },
+        {
+          "agent_id": "T12_A09",
+          "task_id": "task_37",
+          "status": "completed",
+          "timestamp": 1762455270.9579318
+        },
+        {
+          "agent_id": "T12_A09",
+          "task_id": "task_47",
+          "status": "completed",
+          "timestamp": 1762455271.1852963
+        },
+        {
+          "agent_id": "T12_A10",
+          "task_id": "task_188",
+          "status": "completed",
+          "timestamp": 1762455271.4560344
+        },
+        {
+          "agent_id": "T12_A10",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455271.765244
+        },
+        {
+          "agent_id": "T12_A10",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455272.013529
+        },
+        {
+          "agent_id": "T13_A01",
+          "task_id": "task_140",
+          "status": "completed",
+          "timestamp": 1762455272.2554233
+        },
+        {
+          "agent_id": "T13_A01",
+          "task_id": "task_195",
+          "status": "completed",
+          "timestamp": 1762455272.5142286
+        },
+        {
+          "agent_id": "T13_A01",
+          "task_id": "task_158",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455272.7905433
+        },
+        {
+          "agent_id": "T13_A02",
+          "task_id": "task_162",
+          "status": "completed",
+          "timestamp": 1762455273.6406574
+        },
+        {
+          "agent_id": "T13_A02",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455273.897469
+        },
+        {
+          "agent_id": "T13_A02",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455274.1504676
+        },
+        {
+          "agent_id": "T13_A03",
+          "task_id": "task_104",
+          "status": "completed",
+          "timestamp": 1762455274.3858883
+        },
+        {
+          "agent_id": "T13_A03",
+          "task_id": "task_86",
+          "status": "completed",
+          "timestamp": 1762455274.6098704
+        },
+        {
+          "agent_id": "T13_A03",
+          "task_id": "task_11",
+          "status": "completed",
+          "timestamp": 1762455274.8583488
+        },
+        {
+          "agent_id": "T13_A04",
+          "task_id": "task_117",
+          "status": "completed",
+          "timestamp": 1762455275.0909452
+        },
+        {
+          "agent_id": "T13_A04",
+          "task_id": "task_67",
+          "status": "completed",
+          "timestamp": 1762455275.3319907
+        },
+        {
+          "agent_id": "T13_A04",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455275.5629508
+        },
+        {
+          "agent_id": "T13_A05",
+          "task_id": "task_108",
+          "status": "completed",
+          "timestamp": 1762455275.8180873
+        },
+        {
+          "agent_id": "T13_A05",
+          "task_id": "task_194",
+          "status": "completed",
+          "timestamp": 1762455276.0531645
+        },
+        {
+          "agent_id": "T13_A05",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455276.3125591
+        },
+        {
+          "agent_id": "T13_A06",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455276.563513
+        },
+        {
+          "agent_id": "T13_A06",
+          "task_id": "task_180",
+          "status": "completed",
+          "timestamp": 1762455276.7958393
+        },
+        {
+          "agent_id": "T13_A06",
+          "task_id": "task_62",
+          "status": "completed",
+          "timestamp": 1762455277.0284522
+        },
+        {
+          "agent_id": "T13_A07",
+          "task_id": "task_198",
+          "status": "completed",
+          "timestamp": 1762455277.2700393
+        },
+        {
+          "agent_id": "T13_A07",
+          "task_id": "task_129",
+          "status": "completed",
+          "timestamp": 1762455277.5832725
+        },
+        {
+          "agent_id": "T13_A07",
+          "task_id": "task_125",
+          "status": "completed",
+          "timestamp": 1762455277.8368495
+        },
+        {
+          "agent_id": "T13_A08",
+          "task_id": "task_5",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455278.0982664
+        },
+        {
+          "agent_id": "T13_A08",
+          "task_id": "task_184",
+          "status": "completed",
+          "timestamp": 1762455278.8829095
+        },
+        {
+          "agent_id": "T13_A08",
+          "task_id": "task_16",
+          "status": "completed",
+          "timestamp": 1762455279.0966375
+        },
+        {
+          "agent_id": "T13_A09",
+          "task_id": "task_139",
+          "status": "completed",
+          "timestamp": 1762455279.3301702
+        },
+        {
+          "agent_id": "T13_A09",
+          "task_id": "task_63",
+          "status": "completed",
+          "timestamp": 1762455279.5852182
+        },
+        {
+          "agent_id": "T13_A09",
+          "task_id": "task_196",
+          "status": "completed",
+          "timestamp": 1762455279.8500278
+        },
+        {
+          "agent_id": "T13_A10",
+          "task_id": "task_61",
+          "status": "completed",
+          "timestamp": 1762455280.0845525
+        },
+        {
+          "agent_id": "T13_A10",
+          "task_id": "task_147",
+          "status": "completed",
+          "timestamp": 1762455280.320855
+        },
+        {
+          "agent_id": "T13_A10",
+          "task_id": "task_14",
+          "status": "completed",
+          "timestamp": 1762455280.5701427
+        },
+        {
+          "agent_id": "T14_A01",
+          "task_id": "task_113",
+          "status": "completed",
+          "timestamp": 1762455280.8209977
+        },
+        {
+          "agent_id": "T14_A01",
+          "task_id": "task_100",
+          "status": "completed",
+          "timestamp": 1762455281.10352
+        },
+        {
+          "agent_id": "T14_A01",
+          "task_id": "task_57",
+          "status": "completed",
+          "timestamp": 1762455281.3706253
+        },
+        {
+          "agent_id": "T14_A02",
+          "task_id": "task_198",
+          "status": "completed",
+          "timestamp": 1762455281.6287465
+        },
+        {
+          "agent_id": "T14_A02",
+          "task_id": "task_189",
+          "status": "completed",
+          "timestamp": 1762455281.8855627
+        },
+        {
+          "agent_id": "T14_A02",
+          "task_id": "task_194",
+          "status": "completed",
+          "timestamp": 1762455282.112111
+        },
+        {
+          "agent_id": "T14_A03",
+          "task_id": "task_53",
+          "status": "completed",
+          "timestamp": 1762455282.3615522
+        },
+        {
+          "agent_id": "T14_A03",
+          "task_id": "task_89",
+          "status": "completed",
+          "timestamp": 1762455282.5920613
+        },
+        {
+          "agent_id": "T14_A03",
+          "task_id": "task_148",
+          "status": "completed",
+          "timestamp": 1762455282.8158536
+        },
+        {
+          "agent_id": "T14_A04",
+          "task_id": "task_156",
+          "status": "completed",
+          "timestamp": 1762455283.0516844
+        },
+        {
+          "agent_id": "T14_A04",
+          "task_id": "task_151",
+          "status": "completed",
+          "timestamp": 1762455283.3022528
+        },
+        {
+          "agent_id": "T14_A04",
+          "task_id": "task_129",
+          "status": "completed",
+          "timestamp": 1762455283.580809
+        },
+        {
+          "agent_id": "T14_A05",
+          "task_id": "task_8",
+          "status": "completed",
+          "timestamp": 1762455283.828333
+        },
+        {
+          "agent_id": "T14_A05",
+          "task_id": "task_35",
+          "status": "completed",
+          "timestamp": 1762455284.0720053
+        },
+        {
+          "agent_id": "T14_A05",
+          "task_id": "task_120",
+          "status": "completed",
+          "timestamp": 1762455284.3217232
+        },
+        {
+          "agent_id": "T14_A06",
+          "task_id": "task_148",
+          "status": "completed",
+          "timestamp": 1762455284.56921
+        },
+        {
+          "agent_id": "T14_A06",
+          "task_id": "task_107",
+          "status": "completed",
+          "timestamp": 1762455284.8059118
+        },
+        {
+          "agent_id": "T14_A06",
+          "task_id": "task_73",
+          "status": "completed",
+          "timestamp": 1762455285.0642984
+        },
+        {
+          "agent_id": "T14_A07",
+          "task_id": "task_139",
+          "status": "completed",
+          "timestamp": 1762455285.3123724
+        },
+        {
+          "agent_id": "T14_A07",
+          "task_id": "task_118",
+          "status": "completed",
+          "timestamp": 1762455285.5585485
+        },
+        {
+          "agent_id": "T14_A07",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455285.8034835
+        },
+        {
+          "agent_id": "T14_A08",
+          "task_id": "task_43",
+          "status": "completed",
+          "timestamp": 1762455286.0696995
+        },
+        {
+          "agent_id": "T14_A08",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455286.3147888
+        },
+        {
+          "agent_id": "T14_A08",
+          "task_id": "task_84",
+          "status": "completed",
+          "timestamp": 1762455286.5452573
+        },
+        {
+          "agent_id": "T14_A09",
+          "task_id": "task_67",
+          "status": "completed",
+          "timestamp": 1762455286.7901318
+        },
+        {
+          "agent_id": "T14_A09",
+          "task_id": "task_11",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455287.0352855
+        },
+        {
+          "agent_id": "T14_A09",
+          "task_id": "task_157",
+          "status": "completed",
+          "timestamp": 1762455287.8004649
+        },
+        {
+          "agent_id": "T14_A10",
+          "task_id": "task_177",
+          "status": "completed",
+          "timestamp": 1762455288.0415604
+        },
+        {
+          "agent_id": "T14_A10",
+          "task_id": "task_84",
+          "status": "completed",
+          "timestamp": 1762455288.2786667
+        },
+        {
+          "agent_id": "T14_A10",
+          "task_id": "task_150",
+          "status": "completed",
+          "timestamp": 1762455288.5179963
+        },
+        {
+          "agent_id": "T15_A01",
+          "task_id": "task_156",
+          "status": "completed",
+          "timestamp": 1762455288.7623408
+        },
+        {
+          "agent_id": "T15_A01",
+          "task_id": "task_138",
+          "status": "completed",
+          "timestamp": 1762455289.0038314
+        },
+        {
+          "agent_id": "T15_A01",
+          "task_id": "task_153",
+          "status": "completed",
+          "timestamp": 1762455289.2587514
+        },
+        {
+          "agent_id": "T15_A02",
+          "task_id": "task_180",
+          "status": "completed",
+          "timestamp": 1762455289.5339012
+        },
+        {
+          "agent_id": "T15_A02",
+          "task_id": "task_98",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455289.788343
+        },
+        {
+          "agent_id": "T15_A02",
+          "task_id": "task_15",
+          "status": "completed",
+          "timestamp": 1762455290.6189678
+        },
+        {
+          "agent_id": "T15_A03",
+          "task_id": "task_120",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455290.8803127
+        },
+        {
+          "agent_id": "T15_A03",
+          "task_id": "task_91",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455291.6641834
+        },
+        {
+          "agent_id": "T15_A03",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455292.4388208
+        },
+        {
+          "agent_id": "T15_A04",
+          "task_id": "task_81",
+          "status": "completed",
+          "timestamp": 1762455292.6900144
+        },
+        {
+          "agent_id": "T15_A04",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455292.9367166
+        },
+        {
+          "agent_id": "T15_A04",
+          "task_id": "task_77",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455293.1828017
+        },
+        {
+          "agent_id": "T15_A05",
+          "task_id": "task_78",
+          "status": "completed",
+          "timestamp": 1762455294.0511684
+        },
+        {
+          "agent_id": "T15_A05",
+          "task_id": "task_143",
+          "status": "completed",
+          "timestamp": 1762455294.283538
+        },
+        {
+          "agent_id": "T15_A05",
+          "task_id": "task_149",
+          "status": "completed",
+          "timestamp": 1762455294.5219195
+        },
+        {
+          "agent_id": "T15_A06",
+          "task_id": "task_168",
+          "status": "completed",
+          "timestamp": 1762455294.7575808
+        },
+        {
+          "agent_id": "T15_A06",
+          "task_id": "task_99",
+          "status": "completed",
+          "timestamp": 1762455295.000004
+        },
+        {
+          "agent_id": "T15_A06",
+          "task_id": "task_39",
+          "status": "completed",
+          "timestamp": 1762455295.253578
+        },
+        {
+          "agent_id": "T15_A07",
+          "task_id": "task_73",
+          "status": "completed",
+          "timestamp": 1762455295.4898536
+        },
+        {
+          "agent_id": "T15_A07",
+          "task_id": "task_81",
+          "status": "completed",
+          "timestamp": 1762455295.734304
+        },
+        {
+          "agent_id": "T15_A07",
+          "task_id": "task_154",
+          "status": "completed",
+          "timestamp": 1762455295.983496
+        },
+        {
+          "agent_id": "T15_A08",
+          "task_id": "task_64",
+          "status": "completed",
+          "timestamp": 1762455296.2207072
+        },
+        {
+          "agent_id": "T15_A08",
+          "task_id": "task_122",
+          "status": "completed",
+          "timestamp": 1762455296.4660666
+        },
+        {
+          "agent_id": "T15_A08",
+          "task_id": "task_94",
+          "status": "completed",
+          "timestamp": 1762455296.7264745
+        },
+        {
+          "agent_id": "T15_A09",
+          "task_id": "task_189",
+          "status": "completed",
+          "timestamp": 1762455296.9744737
+        },
+        {
+          "agent_id": "T15_A09",
+          "task_id": "task_9",
+          "status": "completed",
+          "timestamp": 1762455297.2230256
+        },
+        {
+          "agent_id": "T15_A09",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455297.4673038
+        },
+        {
+          "agent_id": "T15_A10",
+          "task_id": "task_114",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455297.7193758
+        },
+        {
+          "agent_id": "T15_A10",
+          "task_id": "task_77",
+          "status": "completed",
+          "timestamp": 1762455298.5427916
+        },
+        {
+          "agent_id": "T15_A10",
+          "task_id": "task_45",
+          "status": "completed",
+          "timestamp": 1762455298.7723184
+        },
+        {
+          "agent_id": "T16_A01",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455298.998202
+        },
+        {
+          "agent_id": "T16_A01",
+          "task_id": "task_133",
+          "status": "completed",
+          "timestamp": 1762455299.2132173
+        },
+        {
+          "agent_id": "T16_A01",
+          "task_id": "task_87",
+          "status": "completed",
+          "timestamp": 1762455299.4477243
+        },
+        {
+          "agent_id": "T16_A02",
+          "task_id": "task_31",
+          "status": "completed",
+          "timestamp": 1762455299.706999
+        },
+        {
+          "agent_id": "T16_A02",
+          "task_id": "task_78",
+          "status": "completed",
+          "timestamp": 1762455299.9502175
+        },
+        {
+          "agent_id": "T16_A02",
+          "task_id": "task_94",
+          "status": "completed",
+          "timestamp": 1762455300.2079883
+        },
+        {
+          "agent_id": "T16_A03",
+          "task_id": "task_134",
+          "status": "completed",
+          "timestamp": 1762455300.449514
+        },
+        {
+          "agent_id": "T16_A03",
+          "task_id": "task_69",
+          "status": "completed",
+          "timestamp": 1762455300.6860557
+        },
+        {
+          "agent_id": "T16_A03",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455300.9072824
+        },
+        {
+          "agent_id": "T16_A04",
+          "task_id": "task_161",
+          "status": "completed",
+          "timestamp": 1762455301.1527617
+        },
+        {
+          "agent_id": "T16_A04",
+          "task_id": "task_197",
+          "status": "completed",
+          "timestamp": 1762455301.3907666
+        },
+        {
+          "agent_id": "T16_A04",
+          "task_id": "task_174",
+          "status": "completed",
+          "timestamp": 1762455301.655728
+        },
+        {
+          "agent_id": "T16_A05",
+          "task_id": "task_58",
+          "status": "completed",
+          "timestamp": 1762455301.8991673
+        },
+        {
+          "agent_id": "T16_A05",
+          "task_id": "task_87",
+          "status": "completed",
+          "timestamp": 1762455302.1352582
+        },
+        {
+          "agent_id": "T16_A05",
+          "task_id": "task_168",
+          "status": "completed",
+          "timestamp": 1762455302.3629003
+        },
+        {
+          "agent_id": "T16_A06",
+          "task_id": "task_130",
+          "status": "completed",
+          "timestamp": 1762455302.5883274
+        },
+        {
+          "agent_id": "T16_A06",
+          "task_id": "task_155",
+          "status": "completed",
+          "timestamp": 1762455302.851844
+        },
+        {
+          "agent_id": "T16_A06",
+          "task_id": "task_26",
+          "status": "completed",
+          "timestamp": 1762455303.1049235
+        },
+        {
+          "agent_id": "T16_A07",
+          "task_id": "task_140",
+          "status": "completed",
+          "timestamp": 1762455303.3563395
+        },
+        {
+          "agent_id": "T16_A07",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455303.5966742
+        },
+        {
+          "agent_id": "T16_A07",
+          "task_id": "task_180",
+          "status": "completed",
+          "timestamp": 1762455303.8431487
+        },
+        {
+          "agent_id": "T16_A08",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455304.0743854
+        },
+        {
+          "agent_id": "T16_A08",
+          "task_id": "task_187",
+          "status": "completed",
+          "timestamp": 1762455304.3591688
+        },
+        {
+          "agent_id": "T16_A08",
+          "task_id": "task_23",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455304.6170251
+        },
+        {
+          "agent_id": "T16_A09",
+          "task_id": "task_112",
+          "status": "completed",
+          "timestamp": 1762455305.425845
+        },
+        {
+          "agent_id": "T16_A09",
+          "task_id": "task_118",
+          "status": "completed",
+          "timestamp": 1762455305.6688237
+        },
+        {
+          "agent_id": "T16_A09",
+          "task_id": "task_69",
+          "status": "completed",
+          "timestamp": 1762455305.9044173
+        },
+        {
+          "agent_id": "T16_A10",
+          "task_id": "task_105",
+          "status": "completed",
+          "timestamp": 1762455306.1414258
+        },
+        {
+          "agent_id": "T16_A10",
+          "task_id": "task_141",
+          "status": "completed",
+          "timestamp": 1762455306.3878615
+        },
+        {
+          "agent_id": "T16_A10",
+          "task_id": "task_37",
+          "status": "completed",
+          "timestamp": 1762455306.6329536
+        },
+        {
+          "agent_id": "T17_A01",
+          "task_id": "task_172",
+          "status": "completed",
+          "timestamp": 1762455306.865148
+        },
+        {
+          "agent_id": "T17_A01",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455307.1425304
+        },
+        {
+          "agent_id": "T17_A01",
+          "task_id": "task_129",
+          "status": "completed",
+          "timestamp": 1762455307.3978486
+        },
+        {
+          "agent_id": "T17_A02",
+          "task_id": "task_6",
+          "status": "completed",
+          "timestamp": 1762455307.6407528
+        },
+        {
+          "agent_id": "T17_A02",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455307.8860261
+        },
+        {
+          "agent_id": "T17_A02",
+          "task_id": "task_198",
+          "status": "completed",
+          "timestamp": 1762455308.1267693
+        },
+        {
+          "agent_id": "T17_A03",
+          "task_id": "task_79",
+          "status": "completed",
+          "timestamp": 1762455308.3591583
+        },
+        {
+          "agent_id": "T17_A03",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455308.6240263
+        },
+        {
+          "agent_id": "T17_A03",
+          "task_id": "task_67",
+          "status": "completed",
+          "timestamp": 1762455308.8713758
+        },
+        {
+          "agent_id": "T17_A04",
+          "task_id": "task_59",
+          "status": "completed",
+          "timestamp": 1762455309.1177368
+        },
+        {
+          "agent_id": "T17_A04",
+          "task_id": "task_66",
+          "status": "completed",
+          "timestamp": 1762455309.339645
+        },
+        {
+          "agent_id": "T17_A04",
+          "task_id": "task_14",
+          "status": "completed",
+          "timestamp": 1762455309.5802255
+        },
+        {
+          "agent_id": "T17_A05",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455309.8136978
+        },
+        {
+          "agent_id": "T17_A05",
+          "task_id": "task_28",
+          "status": "completed",
+          "timestamp": 1762455310.0675383
+        },
+        {
+          "agent_id": "T17_A05",
+          "task_id": "task_176",
+          "status": "completed",
+          "timestamp": 1762455310.306921
+        },
+        {
+          "agent_id": "T17_A06",
+          "task_id": "task_55",
+          "status": "completed",
+          "timestamp": 1762455310.5430653
+        },
+        {
+          "agent_id": "T17_A06",
+          "task_id": "task_1",
+          "status": "completed",
+          "timestamp": 1762455310.7861187
+        },
+        {
+          "agent_id": "T17_A06",
+          "task_id": "task_161",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455311.0266764
+        },
+        {
+          "agent_id": "T17_A07",
+          "task_id": "task_84",
+          "status": "completed",
+          "timestamp": 1762455311.727079
+        },
+        {
+          "agent_id": "T17_A07",
+          "task_id": "task_28",
+          "status": "completed",
+          "timestamp": 1762455311.967994
+        },
+        {
+          "agent_id": "T17_A07",
+          "task_id": "task_124",
+          "status": "completed",
+          "timestamp": 1762455312.2094996
+        },
+        {
+          "agent_id": "T17_A08",
+          "task_id": "task_9",
+          "status": "completed",
+          "timestamp": 1762455312.4388132
+        },
+        {
+          "agent_id": "T17_A08",
+          "task_id": "task_158",
+          "status": "completed",
+          "timestamp": 1762455312.6860402
+        },
+        {
+          "agent_id": "T17_A08",
+          "task_id": "task_46",
+          "status": "completed",
+          "timestamp": 1762455312.95105
+        },
+        {
+          "agent_id": "T17_A09",
+          "task_id": "task_197",
+          "status": "completed",
+          "timestamp": 1762455313.18374
+        },
+        {
+          "agent_id": "T17_A09",
+          "task_id": "task_1",
+          "status": "completed",
+          "timestamp": 1762455313.4467967
+        },
+        {
+          "agent_id": "T17_A09",
+          "task_id": "task_176",
+          "status": "completed",
+          "timestamp": 1762455313.6906943
+        },
+        {
+          "agent_id": "T17_A10",
+          "task_id": "task_145",
+          "status": "completed",
+          "timestamp": 1762455313.9470563
+        },
+        {
+          "agent_id": "T17_A10",
+          "task_id": "task_96",
+          "status": "completed",
+          "timestamp": 1762455314.1865723
+        },
+        {
+          "agent_id": "T17_A10",
+          "task_id": "task_11",
+          "status": "completed",
+          "timestamp": 1762455314.4396205
+        },
+        {
+          "agent_id": "T18_A01",
+          "task_id": "task_83",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455314.6659138
+        },
+        {
+          "agent_id": "T18_A01",
+          "task_id": "task_65",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455315.4688723
+        },
+        {
+          "agent_id": "T18_A01",
+          "task_id": "task_199",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455316.2371123
+        },
+        {
+          "agent_id": "T18_A02",
+          "task_id": "task_14",
+          "status": "completed",
+          "timestamp": 1762455317.1336493
+        },
+        {
+          "agent_id": "T18_A02",
+          "task_id": "task_199",
+          "status": "completed",
+          "timestamp": 1762455317.387799
+        },
+        {
+          "agent_id": "T18_A02",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455317.6254468
+        },
+        {
+          "agent_id": "T18_A03",
+          "task_id": "task_135",
+          "status": "completed",
+          "timestamp": 1762455317.8683276
+        },
+        {
+          "agent_id": "T18_A03",
+          "task_id": "task_7",
+          "status": "completed",
+          "timestamp": 1762455318.10833
+        },
+        {
+          "agent_id": "T18_A03",
+          "task_id": "task_168",
+          "status": "completed",
+          "timestamp": 1762455318.3381002
+        },
+        {
+          "agent_id": "T18_A04",
+          "task_id": "task_55",
+          "status": "completed",
+          "timestamp": 1762455318.5678563
+        },
+        {
+          "agent_id": "T18_A04",
+          "task_id": "task_87",
+          "status": "completed",
+          "timestamp": 1762455318.8248138
+        },
+        {
+          "agent_id": "T18_A04",
+          "task_id": "task_41",
+          "status": "completed",
+          "timestamp": 1762455319.05839
+        },
+        {
+          "agent_id": "T18_A05",
+          "task_id": "task_196",
+          "status": "completed",
+          "timestamp": 1762455319.289188
+        },
+        {
+          "agent_id": "T18_A05",
+          "task_id": "task_59",
+          "status": "completed",
+          "timestamp": 1762455319.526641
+        },
+        {
+          "agent_id": "T18_A05",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455319.7541223
+        },
+        {
+          "agent_id": "T18_A06",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455319.9862309
+        },
+        {
+          "agent_id": "T18_A06",
+          "task_id": "task_99",
+          "status": "completed",
+          "timestamp": 1762455320.210934
+        },
+        {
+          "agent_id": "T18_A06",
+          "task_id": "task_90",
+          "status": "completed",
+          "timestamp": 1762455320.4589465
+        },
+        {
+          "agent_id": "T18_A07",
+          "task_id": "task_148",
+          "status": "completed",
+          "timestamp": 1762455320.6921787
+        },
+        {
+          "agent_id": "T18_A07",
+          "task_id": "task_52",
+          "status": "completed",
+          "timestamp": 1762455320.932794
+        },
+        {
+          "agent_id": "T18_A07",
+          "task_id": "task_156",
+          "status": "completed",
+          "timestamp": 1762455321.158218
+        },
+        {
+          "agent_id": "T18_A08",
+          "task_id": "task_90",
+          "status": "completed",
+          "timestamp": 1762455321.397961
+        },
+        {
+          "agent_id": "T18_A08",
+          "task_id": "task_190",
+          "status": "completed",
+          "timestamp": 1762455321.6340864
+        },
+        {
+          "agent_id": "T18_A08",
+          "task_id": "task_192",
+          "status": "completed",
+          "timestamp": 1762455321.8856509
+        },
+        {
+          "agent_id": "T18_A09",
+          "task_id": "task_42",
+          "status": "completed",
+          "timestamp": 1762455322.126305
+        },
+        {
+          "agent_id": "T18_A09",
+          "task_id": "task_80",
+          "status": "completed",
+          "timestamp": 1762455322.360113
+        },
+        {
+          "agent_id": "T18_A09",
+          "task_id": "task_91",
+          "status": "completed",
+          "timestamp": 1762455322.5680456
+        },
+        {
+          "agent_id": "T18_A10",
+          "task_id": "task_131",
+          "status": "completed",
+          "timestamp": 1762455322.8111894
+        },
+        {
+          "agent_id": "T18_A10",
+          "task_id": "task_196",
+          "status": "completed",
+          "timestamp": 1762455323.041477
+        },
+        {
+          "agent_id": "T18_A10",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455323.292641
+        },
+        {
+          "agent_id": "T19_A01",
+          "task_id": "task_117",
+          "status": "completed",
+          "timestamp": 1762455323.56832
+        },
+        {
+          "agent_id": "T19_A01",
+          "task_id": "task_40",
+          "status": "completed",
+          "timestamp": 1762455323.8207226
+        },
+        {
+          "agent_id": "T19_A01",
+          "task_id": "task_73",
+          "status": "completed",
+          "timestamp": 1762455324.0887425
+        },
+        {
+          "agent_id": "T19_A02",
+          "task_id": "task_63",
+          "status": "completed",
+          "timestamp": 1762455324.3228524
+        },
+        {
+          "agent_id": "T19_A02",
+          "task_id": "task_133",
+          "status": "completed",
+          "timestamp": 1762455324.5663729
+        },
+        {
+          "agent_id": "T19_A02",
+          "task_id": "task_128",
+          "status": "completed",
+          "timestamp": 1762455324.7979705
+        },
+        {
+          "agent_id": "T19_A03",
+          "task_id": "task_33",
+          "status": "completed",
+          "timestamp": 1762455325.0421114
+        },
+        {
+          "agent_id": "T19_A03",
+          "task_id": "task_111",
+          "status": "completed",
+          "timestamp": 1762455325.3072286
+        },
+        {
+          "agent_id": "T19_A03",
+          "task_id": "task_77",
+          "status": "completed",
+          "timestamp": 1762455325.551435
+        },
+        {
+          "agent_id": "T19_A04",
+          "task_id": "task_40",
+          "status": "completed",
+          "timestamp": 1762455325.8187668
+        },
+        {
+          "agent_id": "T19_A04",
+          "task_id": "task_53",
+          "status": "completed",
+          "timestamp": 1762455326.076728
+        },
+        {
+          "agent_id": "T19_A04",
+          "task_id": "task_180",
+          "status": "completed",
+          "timestamp": 1762455326.3154812
+        },
+        {
+          "agent_id": "T19_A05",
+          "task_id": "task_17",
+          "status": "completed",
+          "timestamp": 1762455326.557539
+        },
+        {
+          "agent_id": "T19_A05",
+          "task_id": "task_166",
+          "status": "completed",
+          "timestamp": 1762455326.7926412
+        },
+        {
+          "agent_id": "T19_A05",
+          "task_id": "task_187",
+          "status": "completed",
+          "timestamp": 1762455327.0219245
+        },
+        {
+          "agent_id": "T19_A06",
+          "task_id": "task_24",
+          "status": "completed",
+          "timestamp": 1762455327.2837489
+        },
+        {
+          "agent_id": "T19_A06",
+          "task_id": "task_175",
+          "status": "completed",
+          "timestamp": 1762455327.5087144
+        },
+        {
+          "agent_id": "T19_A06",
+          "task_id": "task_8",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455327.7439685
+        },
+        {
+          "agent_id": "T19_A07",
+          "task_id": "task_125",
+          "status": "completed",
+          "timestamp": 1762455328.4980981
+        },
+        {
+          "agent_id": "T19_A07",
+          "task_id": "task_170",
+          "status": "completed",
+          "timestamp": 1762455328.7565622
+        },
+        {
+          "agent_id": "T19_A07",
+          "task_id": "task_113",
+          "status": "completed",
+          "timestamp": 1762455329.0014465
+        },
+        {
+          "agent_id": "T19_A08",
+          "task_id": "task_34",
+          "status": "completed",
+          "timestamp": 1762455329.2508938
+        },
+        {
+          "agent_id": "T19_A08",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455329.4990962
+        },
+        {
+          "agent_id": "T19_A08",
+          "task_id": "task_195",
+          "status": "completed",
+          "timestamp": 1762455329.7501867
+        },
+        {
+          "agent_id": "T19_A09",
+          "task_id": "task_53",
+          "status": "completed",
+          "timestamp": 1762455329.9661055
+        },
+        {
+          "agent_id": "T19_A09",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455330.2170186
+        },
+        {
+          "agent_id": "T19_A09",
+          "task_id": "task_38",
+          "status": "completed",
+          "timestamp": 1762455330.4662879
+        },
+        {
+          "agent_id": "T19_A10",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455330.7866094
+        },
+        {
+          "agent_id": "T19_A10",
+          "task_id": "task_152",
+          "status": "completed",
+          "timestamp": 1762455331.03146
+        },
+        {
+          "agent_id": "T19_A10",
+          "task_id": "task_73",
+          "status": "completed",
+          "timestamp": 1762455331.2750504
+        },
+        {
+          "agent_id": "T20_A01",
+          "task_id": "task_194",
+          "status": "completed",
+          "timestamp": 1762455331.516415
+        },
+        {
+          "agent_id": "T20_A01",
+          "task_id": "task_182",
+          "status": "completed",
+          "timestamp": 1762455331.7594564
+        },
+        {
+          "agent_id": "T20_A01",
+          "task_id": "task_189",
+          "status": "completed",
+          "timestamp": 1762455332.0063896
+        },
+        {
+          "agent_id": "T20_A02",
+          "task_id": "task_165",
+          "status": "completed",
+          "timestamp": 1762455332.2514946
+        },
+        {
+          "agent_id": "T20_A02",
+          "task_id": "task_104",
+          "status": "completed",
+          "timestamp": 1762455332.4834728
+        },
+        {
+          "agent_id": "T20_A02",
+          "task_id": "task_108",
+          "status": "completed",
+          "timestamp": 1762455332.7319446
+        },
+        {
+          "agent_id": "T20_A03",
+          "task_id": "task_114",
+          "status": "completed",
+          "timestamp": 1762455332.9827635
+        },
+        {
+          "agent_id": "T20_A03",
+          "task_id": "task_183",
+          "status": "completed",
+          "timestamp": 1762455333.223245
+        },
+        {
+          "agent_id": "T20_A03",
+          "task_id": "task_105",
+          "status": "completed",
+          "timestamp": 1762455333.4505515
+        },
+        {
+          "agent_id": "T20_A04",
+          "task_id": "task_151",
+          "status": "completed",
+          "timestamp": 1762455333.684025
+        },
+        {
+          "agent_id": "T20_A04",
+          "task_id": "task_31",
+          "status": "completed",
+          "timestamp": 1762455333.9395833
+        },
+        {
+          "agent_id": "T20_A04",
+          "task_id": "task_60",
+          "status": "completed",
+          "timestamp": 1762455334.1705868
+        },
+        {
+          "agent_id": "T20_A05",
+          "task_id": "task_49",
+          "status": "completed",
+          "timestamp": 1762455334.4204328
+        },
+        {
+          "agent_id": "T20_A05",
+          "task_id": "task_121",
+          "status": "completed",
+          "timestamp": 1762455334.6765318
+        },
+        {
+          "agent_id": "T20_A05",
+          "task_id": "task_133",
+          "status": "completed",
+          "timestamp": 1762455334.903523
+        },
+        {
+          "agent_id": "T20_A06",
+          "task_id": "task_26",
+          "status": "completed",
+          "timestamp": 1762455335.1566234
+        },
+        {
+          "agent_id": "T20_A06",
+          "task_id": "task_82",
+          "status": "completed",
+          "timestamp": 1762455335.388111
+        },
+        {
+          "agent_id": "T20_A06",
+          "task_id": "task_2",
+          "status": "completed",
+          "timestamp": 1762455335.6229136
+        },
+        {
+          "agent_id": "T20_A07",
+          "task_id": "task_144",
+          "status": "completed",
+          "timestamp": 1762455335.848711
+        },
+        {
+          "agent_id": "T20_A07",
+          "task_id": "task_5",
+          "status": "completed",
+          "timestamp": 1762455336.0881848
+        },
+        {
+          "agent_id": "T20_A07",
+          "task_id": "task_33",
+          "status": "completed",
+          "timestamp": 1762455336.3439448
+        },
+        {
+          "agent_id": "T20_A08",
+          "task_id": "task_48",
+          "status": "completed",
+          "timestamp": 1762455336.605554
+        },
+        {
+          "agent_id": "T20_A08",
+          "task_id": "task_197",
+          "status": "completed",
+          "timestamp": 1762455336.8655663
+        },
+        {
+          "agent_id": "T20_A08",
+          "task_id": "task_173",
+          "status": "completed",
+          "timestamp": 1762455337.132568
+        },
+        {
+          "agent_id": "T20_A09",
+          "task_id": "task_10",
+          "status": "completed",
+          "timestamp": 1762455337.369799
+        },
+        {
+          "agent_id": "T20_A09",
+          "task_id": "task_75",
+          "status": "completed",
+          "timestamp": 1762455337.6317189
+        },
+        {
+          "agent_id": "T20_A09",
+          "task_id": "task_159",
+          "status": "completed",
+          "timestamp": 1762455337.9258826
+        },
+        {
+          "agent_id": "T20_A10",
+          "task_id": "task_132",
+          "status": "error",
+          "error": "Simulated execution error",
+          "traceback": "Traceback (most recent call last):\n  File \"F:\\agentic_masters_genesis_forge_v1_crewai-project\\crew.py\", line 39, in perform_task\n    raise RuntimeError(\"Simulated execution error\")\nRuntimeError: Simulated execution error\n",
+          "timestamp": 1762455338.2675843
+        },
+        {
+          "agent_id": "T20_A10",
+          "task_id": "task_72",
+          "status": "completed",
+          "timestamp": 1762455339.0321271
+        },
+        {
+          "agent_id": "T20_A10",
+          "task_id": "task_34",
+          "status": "completed",
+          "timestamp": 1762455339.281316
+        }
+      ],
+      "agents": [
+        "T01_A01",
+        "T01_A02",
+        "T01_A03",
+        "T01_A04",
+        "T01_A05",
+        "T01_A06",
+        "T01_A07",
+        "T01_A08",
+        "T01_A09",
+        "T01_A10",
+        "T02_A01",
+        "T02_A02",
+        "T02_A03",
+        "T02_A04",
+        "T02_A05",
+        "T02_A06",
+        "T02_A07",
+        "T02_A08",
+        "T02_A09",
+        "T02_A10",
+        "T03_A01",
+        "T03_A02",
+        "T03_A03",
+        "T03_A04",
+        "T03_A05",
+        "T03_A06",
+        "T03_A07",
+        "T03_A08",
+        "T03_A09",
+        "T03_A10",
+        "T04_A01",
+        "T04_A02",
+        "T04_A03",
+        "T04_A04",
+        "T04_A05",
+        "T04_A06",
+        "T04_A07",
+        "T04_A08",
+        "T04_A09",
+        "T04_A10",
+        "T05_A01",
+        "T05_A02",
+        "T05_A03",
+        "T05_A04",
+        "T05_A05",
+        "T05_A06",
+        "T05_A07",
+        "T05_A08",
+        "T05_A09",
+        "T05_A10",
+        "T06_A01",
+        "T06_A02",
+        "T06_A03",
+        "T06_A04",
+        "T06_A05",
+        "T06_A06",
+        "T06_A07",
+        "T06_A08",
+        "T06_A09",
+        "T06_A10",
+        "T07_A01",
+        "T07_A02",
+        "T07_A03",
+        "T07_A04",
+        "T07_A05",
+        "T07_A06",
+        "T07_A07",
+        "T07_A08",
+        "T07_A09",
+        "T07_A10",
+        "T08_A01",
+        "T08_A02",
+        "T08_A03",
+        "T08_A04",
+        "T08_A05",
+        "T08_A06",
+        "T08_A07",
+        "T08_A08",
+        "T08_A09",
+        "T08_A10",
+        "T09_A01",
+        "T09_A02",
+        "T09_A03",
+        "T09_A04",
+        "T09_A05",
+        "T09_A06",
+        "T09_A07",
+        "T09_A08",
+        "T09_A09",
+        "T09_A10",
+        "T10_A01",
+        "T10_A02",
+        "T10_A03",
+        "T10_A04",
+        "T10_A05",
+        "T10_A06",
+        "T10_A07",
+        "T10_A08",
+        "T10_A09",
+        "T10_A10",
+        "T11_A01",
+        "T11_A02",
+        "T11_A03",
+        "T11_A04",
+        "T11_A05",
+        "T11_A06",
+        "T11_A07",
+        "T11_A08",
+        "T11_A09",
+        "T11_A10",
+        "T12_A01",
+        "T12_A02",
+        "T12_A03",
+        "T12_A04",
+        "T12_A05",
+        "T12_A06",
+        "T12_A07",
+        "T12_A08",
+        "T12_A09",
+        "T12_A10",
+        "T13_A01",
+        "T13_A02",
+        "T13_A03",
+        "T13_A04",
+        "T13_A05",
+        "T13_A06",
+        "T13_A07",
+        "T13_A08",
+        "T13_A09",
+        "T13_A10",
+        "T14_A01",
+        "T14_A02",
+        "T14_A03",
+        "T14_A04",
+        "T14_A05",
+        "T14_A06",
+        "T14_A07",
+        "T14_A08",
+        "T14_A09",
+        "T14_A10",
+        "T15_A01",
+        "T15_A02",
+        "T15_A03",
+        "T15_A04",
+        "T15_A05",
+        "T15_A06",
+        "T15_A07",
+        "T15_A08",
+        "T15_A09",
+        "T15_A10",
+        "T16_A01",
+        "T16_A02",
+        "T16_A03",
+        "T16_A04",
+        "T16_A05",
+        "T16_A06",
+        "T16_A07",
+        "T16_A08",
+        "T16_A09",
+        "T16_A10",
+        "T17_A01",
+        "T17_A02",
+        "T17_A03",
+        "T17_A04",
+        "T17_A05",
+        "T17_A06",
+        "T17_A07",
+        "T17_A08",
+        "T17_A09",
+        "T17_A10",
+        "T18_A01",
+        "T18_A02",
+        "T18_A03",
+        "T18_A04",
+        "T18_A05",
+        "T18_A06",
+        "T18_A07",
+        "T18_A08",
+        "T18_A09",
+        "T18_A10",
+        "T19_A01",
+        "T19_A02",
+        "T19_A03",
+        "T19_A04",
+        "T19_A05",
+        "T19_A06",
+        "T19_A07",
+        "T19_A08",
+        "T19_A09",
+        "T19_A10",
+        "T20_A01",
+        "T20_A02",
+        "T20_A03",
+        "T20_A04",
+        "T20_A05",
+        "T20_A06",
+        "T20_A07",
+        "T20_A08",
+        "T20_A09",
+        "T20_A10"
+      ],
+      "tasks": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8",
+        "task_9",
+        "task_10",
+        "task_11",
+        "task_12",
+        "task_13",
+        "task_14",
+        "task_15",
+        "task_16",
+        "task_17",
+        "task_18",
+        "task_19",
+        "task_20",
+        "task_21",
+        "task_22",
+        "task_23",
+        "task_24",
+        "task_25",
+        "task_26",
+        "task_27",
+        "task_28",
+        "task_29",
+        "task_30",
+        "task_31",
+        "task_32",
+        "task_33",
+        "task_34",
+        "task_35",
+        "task_36",
+        "task_37",
+        "task_38",
+        "task_39",
+        "task_40",
+        "task_41",
+        "task_42",
+        "task_43",
+        "task_44",
+        "task_45",
+        "task_46",
+        "task_47",
+        "task_48",
+        "task_49",
+        "task_50",
+        "task_51",
+        "task_52",
+        "task_53",
+        "task_54",
+        "task_55",
+        "task_56",
+        "task_57",
+        "task_58",
+        "task_59",
+        "task_60",
+        "task_61",
+        "task_62",
+        "task_63",
+        "task_64",
+        "task_65",
+        "task_66",
+        "task_67",
+        "task_68",
+        "task_69",
+        "task_70",
+        "task_71",
+        "task_72",
+        "task_73",
+        "task_74",
+        "task_75",
+        "task_76",
+        "task_77",
+        "task_78",
+        "task_79",
+        "task_80",
+        "task_81",
+        "task_82",
+        "task_83",
+        "task_84",
+        "task_85",
+        "task_86",
+        "task_87",
+        "task_88",
+        "task_89",
+        "task_90",
+        "task_91",
+        "task_92",
+        "task_93",
+        "task_94",
+        "task_95",
+        "task_96",
+        "task_97",
+        "task_98",
+        "task_99",
+        "task_100",
+        "task_101",
+        "task_102",
+        "task_103",
+        "task_104",
+        "task_105",
+        "task_106",
+        "task_107",
+        "task_108",
+        "task_109",
+        "task_110",
+        "task_111",
+        "task_112",
+        "task_113",
+        "task_114",
+        "task_115",
+        "task_116",
+        "task_117",
+        "task_118",
+        "task_119",
+        "task_120",
+        "task_121",
+        "task_122",
+        "task_123",
+        "task_124",
+        "task_125",
+        "task_126",
+        "task_127",
+        "task_128",
+        "task_129",
+        "task_130",
+        "task_131",
+        "task_132",
+        "task_133",
+        "task_134",
+        "task_135",
+        "task_136",
+        "task_137",
+        "task_138",
+        "task_139",
+        "task_140",
+        "task_141",
+        "task_142",
+        "task_143",
+        "task_144",
+        "task_145",
+        "task_146",
+        "task_147",
+        "task_148",
+        "task_149",
+        "task_150",
+        "task_151",
+        "task_152",
+        "task_153",
+        "task_154",
+        "task_155",
+        "task_156",
+        "task_157",
+        "task_158",
+        "task_159",
+        "task_160",
+        "task_161",
+        "task_162",
+        "task_163",
+        "task_164",
+        "task_165",
+        "task_166",
+        "task_167",
+        "task_168",
+        "task_169",
+        "task_170",
+        "task_171",
+        "task_172",
+        "task_173",
+        "task_174",
+        "task_175",
+        "task_176",
+        "task_177",
+        "task_178",
+        "task_179",
+        "task_180",
+        "task_181",
+        "task_182",
+        "task_183",
+        "task_184",
+        "task_185",
+        "task_186",
+        "task_187",
+        "task_188",
+        "task_189",
+        "task_190",
+        "task_191",
+        "task_192",
+        "task_193",
+        "task_194",
+        "task_195",
+        "task_196",
+        "task_197",
+        "task_198",
+        "task_199",
+        "task_200"
+      ]
+    }
+  ]
+}
